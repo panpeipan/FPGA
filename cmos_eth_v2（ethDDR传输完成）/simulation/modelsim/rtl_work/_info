@@ -1,0 +1,2097 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/old_Quartus_File/cmos_eth_v0.1/simulation/modelsim
+T_opt
+!s110 1692602321
+V=Cn2K9KQYKD`Hb:o@SHm93
+04 13 4 work top_testbench fast 0
+=1-d8bbc16e01b5-64e30fd0-2a4-3540
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L cycloneiii_ver -L rtl_work -L work +acc
+n@_opt
+OL;O;10.4;61
+valt_mem_ddrx_addr_cmd
+Z1 !s110 1692602316
+!i10b 1
+!s100 96m`J7NnJ3CT]l2PN5YJn0
+I01]e51QYM078[5]8U2E_13
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1685256576
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_addr_cmd.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_addr_cmd.v
+L0 14
+Z4 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1692602316.776000
+!s107 alt_mem_ddrx_define.iv|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_addr_cmd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_addr_cmd.v|
+!i113 0
+Z5 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 !s92 -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+valt_mem_ddrx_addr_cmd_wrap
+R1
+!i10b 1
+!s100 aWY9[2fQbiOF8FkVz01f10
+Io<[PWH7J77;WoO9EQ>F:[0
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_addr_cmd_wrap.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_addr_cmd_wrap.v
+L0 8
+R4
+r1
+!s85 0
+31
+!s108 1692602316.843000
+!s107 alt_mem_ddrx_define.iv|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_addr_cmd_wrap.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_addr_cmd_wrap.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_arbiter
+Z7 !s110 1692602315
+!i10b 1
+!s100 `MkRe7dKYgJNeZ@]eKcAJ2
+I?Q>gdXX5n0^haI0D]2;9h1
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_arbiter.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_arbiter.v
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1692602315.046000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_arbiter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_arbiter.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_buffer
+R7
+!i10b 1
+!s100 O4V8LU]6cVIkWF[Bch5D32
+Ic?C15V=Ge=V5?aNC8lfdV1
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_buffer.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_buffer.v
+L0 4
+R4
+r1
+!s85 0
+31
+!s108 1692602315.117000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_buffer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_buffer.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_buffer_manager
+Z8 !s110 1692602311
+!i10b 1
+!s100 8aT?2X4;Vd30a>BS><Uo61
+IPff1Sd8EkhPzL7cBRf<0V1
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_buffer_manager.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_buffer_manager.v
+L0 4
+R4
+r1
+!s85 0
+31
+!s108 1692602311.256000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_buffer_manager.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_buffer_manager.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_burst_gen
+Z9 !s110 1692602317
+!i10b 1
+!s100 A]T2QSV<F[F6W8:RM<6I_1
+I^fH?0iY_2JGF9dfjWRIVe0
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_burst_gen.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_burst_gen.v
+L0 7
+R4
+r1
+!s85 0
+31
+!s108 1692602317.037000
+!s107 alt_mem_ddrx_define.iv|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_burst_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_burst_gen.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_burst_tracking
+R7
+!i10b 1
+!s100 SiHK:>aeLB<QjJkg2>5F00
+IzWG9EdIaC?elc@VB@ZBzJ3
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_burst_tracking.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_burst_tracking.v
+L0 6
+R4
+r1
+!s85 0
+31
+!s108 1692602315.178000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_burst_tracking.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_burst_tracking.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_cmd_gen
+R9
+!i10b 1
+!s100 z9=Fjm1z^2U;]j9`fM`Xg0
+I^aSVahY]2@dVX]VDAmK872
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_cmd_gen.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_cmd_gen.v
+L0 6
+R4
+r1
+!s85 0
+31
+!s108 1692602317.116000
+!s107 alt_mem_ddrx_define.iv|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_cmd_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_cmd_gen.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_controller
+Z10 !s110 1692602314
+!i10b 1
+!s100 _^<W5BOM@iibm`5o2?3Lb1
+I^<YTn<U5?LJMkcM`=^E?I2
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_controller.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_controller.v
+L0 4
+R4
+r1
+!s85 0
+31
+!s108 1692602314.720000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_controller.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_controller_st_top
+R1
+!i10b 1
+!s100 FNF7?3U@oAPi?<aoSbl;13
+I_aNEd3hWGz?6V<<kX]lW52
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_controller_st_top.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_controller_st_top.v
+Z11 L0 11
+R4
+r1
+!s85 0
+31
+!s108 1692602316.913000
+!s107 alt_mem_ddrx_define.iv|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_controller_st_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_controller_st_top.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_csr
+R8
+!i10b 1
+!s100 AUAhaFX4BGKV5m<U<^56U1
+I6`e9ASQgVc^gf3V<7XHGX1
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_csr.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_csr.v
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1692602311.134000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_csr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_csr.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_dataid_manager
+R7
+!i10b 1
+!s100 8Sig85dRG2XB;R2Xediz52
+IX4^?C_o7<i6H]UVZmjlnI2
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_dataid_manager.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_dataid_manager.v
+L0 6
+R4
+r1
+!s85 0
+31
+!s108 1692602315.240000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_dataid_manager.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_dataid_manager.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_ddr2_odt_gen
+R10
+!i10b 1
+!s100 >com?^e0E_YfonOR80h3E1
+IP3HcJ@EOF=X1FUJgdgnoO3
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ddr2_odt_gen.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ddr2_odt_gen.v
+L0 8
+R4
+r1
+!s85 0
+31
+!s108 1692602314.811000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ddr2_odt_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ddr2_odt_gen.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_ddr3_odt_gen
+R10
+!i10b 1
+!s100 egkm5oaY>jnY38HQ=J]Pz1
+If3S1[=gNT;A]Y:41;_MIf2
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ddr3_odt_gen.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ddr3_odt_gen.v
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1692602314.896000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ddr3_odt_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ddr3_odt_gen.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_ecc_decoder
+R7
+!i10b 1
+!s100 0@BVg3W0Rz=58Ldh=S:Pn2
+IV<dcVbE]F4VP:7B?@lZM91
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder.v
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1692602315.506000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_ecc_decoder_32
+R7
+!i10b 1
+!s100 c@hO::D>_F5D`Hd:cQJ7K2
+IiiFJBOCa22f;^d?YXG[J73
+R2
+R0
+R3
+Z12 8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder_32_syn.v
+Z13 FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder_32_syn.v
+L0 399
+R4
+r1
+!s85 0
+31
+Z14 !s108 1692602315.566000
+Z15 !s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder_32_syn.v|
+Z16 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder_32_syn.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_ecc_decoder_32_altecc_decoder
+R7
+!i10b 1
+!s100 7eii]fn]omZdaYdHX4h751
+I:JnJkhA0k0FT<74ob`UnM3
+R2
+R0
+R3
+R12
+R13
+L0 225
+R4
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R5
+R6
+valt_mem_ddrx_ecc_decoder_32_decode
+R7
+!i10b 1
+!s100 eI0dkUK_^f63UZGl8c5j82
+I1T@GGYNfK>38:?:09OAQb3
+R2
+R0
+R3
+R12
+R13
+Z17 L0 50
+R4
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R5
+R6
+valt_mem_ddrx_ecc_decoder_64
+R8
+!i10b 1
+!s100 bIC:=PB9[Lo>D[9]FGlG^0
+I8Z>L>IhX7@QPo?=]Yz;Sc3
+R2
+R0
+R3
+Z18 8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder_64_syn.v
+Z19 FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder_64_syn.v
+L0 617
+R4
+r1
+!s85 0
+31
+Z20 !s108 1692602311.843000
+Z21 !s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder_64_syn.v|
+Z22 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder_64_syn.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_ecc_decoder_64_altecc_decoder
+R8
+!i10b 1
+!s100 ]z;ii71Mi8fVhW7TMXGzz2
+IQ1LZcQJGzIQPzgEF=4KMh2
+R2
+R0
+R3
+R18
+R19
+L0 377
+R4
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R5
+R6
+valt_mem_ddrx_ecc_decoder_64_decode
+R8
+!i10b 1
+!s100 <n3nkcSI`N`@VaYhHd3_L1
+I>gfVY2oRiOjY5N^7Q`Sb]1
+R2
+R0
+R3
+R18
+R19
+R17
+R4
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R5
+R6
+valt_mem_ddrx_ecc_encoder
+R7
+!i10b 1
+!s100 onVI2AQ2WoE^50FAH98K<2
+IXT5lmC_MKnT8X3;U:1PGR0
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder.v
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1692602315.638000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_ecc_encoder_32
+R7
+!i10b 1
+!s100 _IngKHI`DofE@Q=Z9]BR50
+Io2T`36YgmDTn2FXe;zhEQ2
+R2
+R0
+R3
+Z23 8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder_32_syn.v
+Z24 FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder_32_syn.v
+L0 216
+R4
+r1
+!s85 0
+31
+Z25 !s108 1692602315.699000
+Z26 !s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder_32_syn.v|
+Z27 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder_32_syn.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_ecc_encoder_32_altecc_encoder
+R7
+!i10b 1
+!s100 ;K[<d@9FTSD2BAR>nIZ=;0
+IQnKca0:XbbES4B_JmBj;W0
+R2
+R0
+R3
+R23
+R24
+Z28 L0 46
+R4
+r1
+!s85 0
+31
+R25
+R26
+R27
+!i113 0
+R5
+R6
+valt_mem_ddrx_ecc_encoder_64
+Z29 !s110 1692602312
+!i10b 1
+!s100 `EdRCA81zmMJ<Z538D[HH3
+Ig]:gj2RbUfAlzJEJ=IM:M0
+R2
+R0
+R3
+Z30 8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder_64_syn.v
+Z31 FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder_64_syn.v
+L0 315
+R4
+r1
+!s85 0
+31
+Z32 !s108 1692602312.050000
+Z33 !s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder_64_syn.v|
+Z34 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder_64_syn.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_ecc_encoder_64_altecc_encoder
+R29
+!i10b 1
+!s100 D2]I5W5;7S:>2X?9m9_S22
+I:`IGKK2JQf?P_Vg>U17:33
+R2
+R0
+R3
+R30
+R31
+R28
+R4
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R5
+R6
+valt_mem_ddrx_ecc_encoder_decoder_wrapper
+R7
+!i10b 1
+!s100 Y_L0`X5i@XMchRzl@PZ772
+I=fhMLQiPXYTc_0aM5DBeN2
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder_decoder_wrapper.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder_decoder_wrapper.v
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1692602315.765000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder_decoder_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder_decoder_wrapper.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_fifo
+R7
+!i10b 1
+!s100 HC1[l;CnN[M>EPM^k]ckU1
+IzFXVGcd5Ab:?7naSg[bl32
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_fifo.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_fifo.v
+L0 4
+R4
+r1
+!s85 0
+31
+!s108 1692602315.308000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_fifo.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_input_if
+R7
+!i10b 1
+!s100 n<RG20<Y0>XbGD^0XaAa:3
+I2<1zLeNI7hBKl6P8710=V3
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_input_if.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_input_if.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1692602315.830000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_input_if.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_input_if.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_list
+R7
+!i10b 1
+!s100 PA7zh5oMFb?8c<Gn@lZJX3
+I?z1MaCJFXECf;o?EUBSmA3
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_list.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_list.v
+L0 6
+R4
+r1
+!s85 0
+31
+!s108 1692602315.374000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_list.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_list.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_lpddr2_addr_cmd
+!s110 1692602310
+!i10b 1
+!s100 ;:B_AHJXR1H=A^0nHFae<0
+I0>g[XL0<Z_Te=LG:hPjEh1
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_lpddr2_addr_cmd.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_lpddr2_addr_cmd.v
+L0 10
+R4
+r1
+!s85 0
+31
+!s108 1692602310.709000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_lpddr2_addr_cmd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_lpddr2_addr_cmd.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_mm_st_converter
+R7
+!i10b 1
+!s100 ?INoE>G`oc9oX9U@4JCKh1
+ICPZ7df34l=WO:HH`902DR1
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_mm_st_converter.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_mm_st_converter.v
+Z35 L0 13
+R4
+r1
+!s85 0
+31
+!s108 1692602315.896000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_mm_st_converter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_mm_st_converter.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_odt_gen
+R1
+!i10b 1
+!s100 [D@3CVVSNj5W=WIQZGX9E2
+IZnWZjaellGCfjEcj3O?Qg0
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_odt_gen.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_odt_gen.v
+L0 7
+R4
+r1
+!s85 0
+31
+!s108 1692602316.977000
+!s107 alt_mem_ddrx_define.iv|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_odt_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_odt_gen.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_rank_timer
+R7
+!i10b 1
+!s100 @;gaZ@6z9T8`GfYaW;jTQ2
+I@ONWoQh@57GFn680dRP[?3
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rank_timer.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rank_timer.v
+L0 7
+R4
+r1
+!s85 0
+31
+!s108 1692602315.956000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rank_timer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rank_timer.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_rdata_path
+R9
+!i10b 1
+!s100 H;i`U^@U3c=PCmH;c=2WK3
+Iaa@>@k^0h>T8:M>8;SoEC2
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rdata_path.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rdata_path.v
+L0 8
+R4
+r1
+!s85 0
+31
+!s108 1692602317.197000
+!s107 alt_mem_ddrx_define.iv|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rdata_path.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rdata_path.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_rdwr_data_tmg
+R10
+!i10b 1
+!s100 e2b4XAmGh7>Rn47CG`Y[h0
+IWfH;G3O6MER:B;:c9JMON1
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rdwr_data_tmg.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rdwr_data_tmg.v
+L0 22
+R4
+r1
+!s85 0
+31
+!s108 1692602314.961000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rdwr_data_tmg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rdwr_data_tmg.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_sideband
+R9
+!i10b 1
+!s100 m>aDWah0c5cZ]l`GiWGd41
+IgS2]WiF0j7WHR^V37Dn0X0
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_sideband.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_sideband.v
+L0 7
+R4
+r1
+!s85 0
+31
+!s108 1692602317.268000
+!s107 alt_mem_ddrx_define.iv|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_sideband.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_sideband.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_tbp
+R9
+!i10b 1
+!s100 T8_fCU;9:BGzYGYT[A0I52
+I5ml<OIh;L_l5^KG0QgTXG3
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_tbp.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_tbp.v
+L0 7
+R4
+r1
+!s85 0
+31
+!s108 1692602317.342000
+!s107 alt_mem_ddrx_define.iv|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_tbp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_tbp.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_timing_param
+R9
+!i10b 1
+!s100 dXiDQ[283fZEISN`C@_zh0
+I?ai^>ZbMK4cI^:TWfezF53
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_timing_param.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_timing_param.v
+L0 7
+R4
+r1
+!s85 0
+31
+!s108 1692602317.419000
+!s107 alt_mem_ddrx_define.iv|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_timing_param.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_timing_param.v|
+!i113 0
+R5
+R6
+valt_mem_ddrx_wdata_path
+R7
+!i10b 1
+!s100 Ik@Qh7nhAaTF[PADR=Kj=3
+IY57>D^mI0=djV4=QFED3E2
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_wdata_path.v
+FF:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_wdata_path.v
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1692602315.438000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_wdata_path.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_wdata_path.v|
+!i113 0
+R5
+R6
+varbitrate_ctrl
+Z36 !s110 1692602318
+!i10b 1
+!s100 DSFeZGJd_<k[1X7MXA7b22
+IR1mF>ke4TdiNIlCYD`4Hc3
+R2
+R0
+w1687935752
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/arbitrate_ctrl.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/arbitrate_ctrl.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1692602318.282000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/arbitrate_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/arbitrate_ctrl.v|
+!i113 0
+R5
+Z37 !s92 -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+varp
+Z38 !s110 1692602319
+!i10b 1
+!s100 1kF0a3RA5HFg5_<3F0eX_1
+IcZ9Td_?>41XG@H`b@2V4N3
+R2
+R0
+w1690376674
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1692602319.878000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp.v|
+!i113 0
+R5
+Z39 !s92 -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+varp_ctrl
+R38
+!i10b 1
+!s100 L5eTL6ObS@mQ`OinC;b4^3
+I0;YoMK^J=FhDckOBLLS<X3
+R2
+R0
+w1690703422
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_ctrl.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_ctrl.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1692602319.949000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_ctrl.v|
+!i113 0
+R5
+R39
+varp_rx
+Z40 !s110 1692602320
+!i10b 1
+!s100 lz<:<d53=<CN>1VO1J:4J0
+I:8?8lehRcU_cK608O307C1
+R2
+R0
+w1690441426
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_rx.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_rx.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1692602320.015000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_rx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_rx.v|
+!i113 0
+R5
+R39
+varp_top
+R40
+!i10b 1
+!s100 Q;]eG8<SL3b2jZZLfo1Qn2
+IB;1QiD6ijAnVJ5j^Wf8a[0
+R2
+R0
+w1690784684
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_top.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_top.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1692602320.110000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_top.v|
+!i113 0
+R5
+R39
+varp_tx
+R40
+!i10b 1
+!s100 iAV3jO=gY^8BCg`@_^BTY0
+IzOJ<LhHoFdCj:c83:5Umd2
+R2
+R0
+w1690439271
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_tx.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_tx.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1692602320.175000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_tx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_tx.v|
+!i113 0
+R5
+R39
+vbank_switch
+R9
+!i10b 1
+!s100 @8ihJB>iGhnO4Lh7DE94i2
+IF]X3bK8b5O]<KJ5Ge>W322
+R2
+R0
+w1685448525
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch/bank_switch.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch/bank_switch.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1692602317.592000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch/bank_switch.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch/bank_switch.v|
+!i113 0
+R5
+Z41 !s92 -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vbank_switch_ctrl
+R9
+!i10b 1
+!s100 S8m[jd6W`zE`T9TQfIcP11
+INP6hz64`K;[V3nBeLIleG0
+R2
+R0
+w1685363593
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch/bank_switch_ctrl.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch/bank_switch_ctrl.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1692602317.660000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch/bank_switch_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch/bank_switch_ctrl.v|
+!i113 0
+R5
+R41
+vcamera_ov9281
+R36
+!i10b 1
+!s100 ]QY`g6CW@EbYmBWEefh0]0
+IH0n;Y3;zdYG^9FgcFl1L`3
+R2
+R0
+w1692452309
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/camera_ov9281.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/camera_ov9281.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1692602318.221000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/camera_ov9281.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/camera_ov9281.v|
+!i113 0
+R5
+Z42 !s92 -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vcrc32_d8
+R40
+!i10b 1
+!s100 G:871TeJ<C=Ud0l29`Y7Q1
+IdOCDNDL9]nU]Z41Z0]FSa2
+R2
+R0
+w1689260120
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/crc32_d8.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/crc32_d8.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1692602320.245000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/crc32_d8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/crc32_d8.v|
+!i113 0
+R5
+R39
+vddr2
+R29
+!i10b 1
+!s100 VOnOdodMTlN]0F88aA8RS3
+Ic8G<6>68`lUEZ>Q1FP=iI1
+R2
+R0
+w1685256579
+8F:/old_Quartus_File/cmos_eth_v0.1/ddr2.v
+FF:/old_Quartus_File/cmos_eth_v0.1/ddr2.v
+Z43 L0 33
+R4
+r1
+!s85 0
+31
+!s108 1692602312.584000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/ddr2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/ddr2.v|
+!i113 0
+R5
+R6
+vddr2_alt_mem_ddrx_controller_top
+R1
+!i10b 1
+!s100 TPJW6KKeO[_LK^i@AmCG^3
+IdG0PHbKW6QXQ1[Lhm3ZK01
+R2
+R0
+R3
+8F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v
+FF:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v
+R35
+R4
+r1
+!s85 0
+31
+!s108 1692602316.711000
+!s107 alt_mem_ddrx_define.iv|F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v|
+!i113 0
+R5
+R6
+vddr2_controller_phy
+R1
+!i10b 1
+!s100 KU8JbL8PN@9WdRlI_d`n22
+IoRQ6VTVc=c`M9:?5cdL_O2
+R2
+R0
+w1685256521
+8F:/old_Quartus_File/cmos_eth_v0.1/ddr2_controller_phy.v
+FF:/old_Quartus_File/cmos_eth_v0.1/ddr2_controller_phy.v
+Z44 L0 21
+R4
+r1
+!s85 0
+31
+!s108 1692602316.397000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/ddr2_controller_phy.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/ddr2_controller_phy.v|
+!i113 0
+R5
+R6
+vddr2_full_mem_model
+R38
+!i10b 1
+!s100 R8@Db0?;C:fS[SUl^D=V@2
+Ico[cl?lhGSdJO5B_g0HSS0
+R2
+R0
+Z45 w1685256522
+Z46 8F:/old_Quartus_File/cmos_eth_v0.1/testbench/ddr2_full_mem_model.v
+Z47 FF:/old_Quartus_File/cmos_eth_v0.1/testbench/ddr2_full_mem_model.v
+L0 111
+R4
+r1
+!s85 0
+31
+Z48 !s108 1692602319.145000
+Z49 !s107 F:/old_Quartus_File/cmos_eth_v0.1/testbench/ddr2_full_mem_model.v|
+Z50 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/testbench|F:/old_Quartus_File/cmos_eth_v0.1/testbench/ddr2_full_mem_model.v|
+!i113 0
+R5
+Z51 !s92 -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/testbench -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vddr2_full_mem_model_ram_module
+R38
+!i10b 1
+!s100 U2kHV>6gDnMn<=HEG6bWM2
+IQkElE=^J^<<NZl]nkn[h^3
+R2
+R0
+R45
+R46
+R47
+R44
+R4
+r1
+!s85 0
+31
+R48
+R49
+R50
+!i113 0
+R5
+R51
+vddr2_mem_model
+R38
+!i10b 1
+!s100 4B0;a@KYma5dP2M[9[7o61
+Ih6E@07boQj06SJH>QOO:O1
+R2
+R0
+R45
+Z52 8F:/old_Quartus_File/cmos_eth_v0.1/testbench/ddr2_mem_model.v
+Z53 FF:/old_Quartus_File/cmos_eth_v0.1/testbench/ddr2_mem_model.v
+L0 128
+R4
+r1
+!s85 0
+31
+Z54 !s108 1692602319.213000
+Z55 !s107 F:/old_Quartus_File/cmos_eth_v0.1/testbench/ddr2_mem_model.v|
+Z56 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/testbench|F:/old_Quartus_File/cmos_eth_v0.1/testbench/ddr2_mem_model.v|
+!i113 0
+R5
+R51
+vddr2_mem_model_ram_module
+R38
+!i10b 1
+!s100 bE8l<J9Y>NAk[C:odXfCk3
+IzcWZ52nd4o2gDLeb:gCUo1
+R2
+R0
+R45
+R52
+R53
+L0 26
+R4
+r1
+!s85 0
+31
+R54
+R55
+R56
+!i113 0
+R5
+R51
+vddr2_phy
+R29
+!i10b 1
+!s100 7?1n74lz^jT@cS;>6LAmT1
+IMT8BTmaZ9M7YlR]:D0YjI0
+R2
+R0
+w1685257031
+8F:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy.v
+FF:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy.v
+R43
+R4
+r1
+!s85 0
+31
+!s108 1692602312.906000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy.v|
+!i113 0
+R5
+R6
+vddr2_phy_alt_mem_phy
+R9
+!i10b 1
+!s100 clRCJRm3oM`V6ib4b4_:Q1
+IJCKlP<9AeXMJO4I7FX6`l1
+R2
+R0
+Z57 w1685257028
+Z58 8F:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy_alt_mem_phy.v
+Z59 FF:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy_alt_mem_phy.v
+R11
+R4
+r1
+!s85 0
+31
+Z60 !s108 1692602317.490000
+Z61 !s107 F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_phy_defines.v|F:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy_alt_mem_phy.v|
+Z62 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy_alt_mem_phy.v|
+!i113 0
+R5
+R6
+vddr2_phy_alt_mem_phy_ac
+R9
+!i10b 1
+!s100 Y4L_WYhH4iaX?2=:jc[lf0
+IF1040^7Pc_MGRA1<9`Y=V3
+R2
+R0
+R57
+R58
+R59
+L0 1782
+R4
+r1
+!s85 0
+31
+R60
+R61
+R62
+!i113 0
+R5
+R6
+vddr2_phy_alt_mem_phy_addr_cmd
+R9
+!i10b 1
+!s100 XaoG8lSB5z6X3lWK[5Z>a0
+I6j;b@QRD93n@U0V:H6L5^0
+R2
+R0
+R57
+R58
+R59
+L0 2164
+R4
+r1
+!s85 0
+31
+R60
+R61
+R62
+!i113 0
+R5
+R6
+vddr2_phy_alt_mem_phy_clk_reset
+R9
+!i10b 1
+!s100 ]@8mLm@ASLI217Z3FmUO@0
+Iek9R^V7eV^UT@Vi1nl@mO1
+R2
+R0
+R57
+R58
+R59
+L0 1039
+R4
+r1
+!s85 0
+31
+R60
+R61
+R62
+!i113 0
+R5
+R6
+vddr2_phy_alt_mem_phy_dp_io
+R9
+!i10b 1
+!s100 ejd[RF0aY=gVaV_7W<F[<3
+I5n8dA3dhc;F[aI3<F5Sik0
+R2
+R0
+R57
+R58
+R59
+L0 2603
+R4
+r1
+!s85 0
+31
+R60
+R61
+R62
+!i113 0
+R5
+R6
+vddr2_phy_alt_mem_phy_mimic
+R9
+!i10b 1
+!s100 B]HzjDDLUH>F0cU`1[1LZ0
+IF]iNVddK83]BN<[]JIFak2
+R2
+R0
+R57
+R58
+R59
+L0 4271
+R4
+r1
+!s85 0
+31
+R60
+R61
+R62
+!i113 0
+R5
+R6
+vddr2_phy_alt_mem_phy_mimic_debug
+R9
+!i10b 1
+!s100 NE:eFhI92T1HZ5=ejP[fG0
+I^WZ6:Xh>74zSkif4P7WbZ1
+R2
+R0
+R57
+R58
+R59
+L0 4526
+R4
+r1
+!s85 0
+31
+R60
+R61
+R62
+!i113 0
+R5
+R6
+vddr2_phy_alt_mem_phy_mux
+R9
+!i10b 1
+!s100 HZV6l`g?6NC^>7Unc2@KL2
+IBV1f53j76]nXN`bdz@H873
+R2
+R0
+R57
+R58
+R59
+L0 3995
+R4
+r1
+!s85 0
+31
+R60
+R61
+R62
+!i113 0
+R5
+R6
+vddr2_phy_alt_mem_phy_pll
+R1
+!i10b 1
+!s100 Jkz5<Hl=i2lNA]O]82h;00
+IlDMREK2EDEo_hPg_57:E70
+R2
+R0
+R57
+8F:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy_alt_mem_phy_pll.v
+FF:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy_alt_mem_phy_pll.v
+Z63 L0 39
+R4
+r1
+!s85 0
+31
+!s108 1692602316.028000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy_alt_mem_phy_pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy_alt_mem_phy_pll.v|
+!i113 0
+R5
+R6
+vddr2_phy_alt_mem_phy_rdata_valid
+R9
+!i10b 1
+!s100 zM^jWO2gFnNS42ek45d3=3
+Ijm@2ml9TA9X0?=Hi?iY:Q3
+R2
+R0
+R57
+R58
+R59
+L0 3724
+R4
+r1
+!s85 0
+31
+R60
+R61
+R62
+!i113 0
+R5
+R6
+vddr2_phy_alt_mem_phy_read_dp
+R9
+!i10b 1
+!s100 nAU?2zNH[MFOO^e<IXEFj3
+Ih:aB2L:OgZLmJ=:BWmo>_3
+R2
+R0
+R57
+R58
+R59
+L0 2942
+R4
+r1
+!s85 0
+31
+R60
+R61
+R62
+!i113 0
+R5
+R6
+vddr2_phy_alt_mem_phy_reset_pipe
+R9
+!i10b 1
+!s100 a_ieJVD:42`U5cMg]MKRk3
+Ie2kG`G0`:B86RUJj0Wm^T3
+R2
+R0
+R57
+R58
+R59
+L0 4758
+R4
+r1
+!s85 0
+31
+R60
+R61
+R62
+!i113 0
+R5
+R6
+vddr2_phy_alt_mem_phy_seq_wrapper
+R29
+!i10b 1
+!s100 <8km@j4GIEQhQK=:l7Tg32
+I?782G=lIBo^nfeJU>3HE50
+R2
+R0
+R57
+8F:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy_alt_mem_phy_seq_wrapper.vo
+FF:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy_alt_mem_phy_seq_wrapper.vo
+L0 31
+R4
+r1
+!s85 0
+31
+!s108 1692602312.644000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy_alt_mem_phy_seq_wrapper.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy_alt_mem_phy_seq_wrapper.vo|
+!i113 0
+R5
+R6
+vddr2_phy_alt_mem_phy_write_dp_fr
+R9
+!i10b 1
+!s100 Vah`dBSblLUC`@[mE7>nd3
+Ihi8_IDo2?9=5PHlROK>jK3
+R2
+R0
+R57
+R58
+R59
+L0 3409
+R4
+r1
+!s85 0
+31
+R60
+R61
+R62
+!i113 0
+R5
+R6
+vddr2wr_fifo
+R9
+!i10b 1
+!s100 ;SMC:zVaP_z51=XCbOeNW0
+IUTkJAGQLdcG5H[5DfTDC]0
+R2
+R0
+w1683469888
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/ddr2wr_fifo.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/ddr2wr_fifo.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1692602317.892000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/ddr2wr_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/ddr2wr_fifo.v|
+!i113 0
+R5
+Z64 !s92 -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vddr_wdisplayfifo
+R9
+!i10b 1
+!s100 oMJBaV1ILiU:D;DYXHLd70
+IEYC>=4Bob7^iSDoI_@9hl1
+R2
+R0
+w1686213107
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/ddr_wdisplayfifo.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/ddr_wdisplayfifo.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1692602317.742000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/ddr_wdisplayfifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/ddr_wdisplayfifo.v|
+!i113 0
+R5
+R64
+vddr_wr_ctrl
+R9
+!i10b 1
+!s100 FMRSS4=BZo:e[acAMeZg`2
+IX<AFE5V]7?l2<AB_3hGZ^2
+R2
+R0
+w1685542342
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/ddr_wr_ctrl.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/ddr_wr_ctrl.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1692602317.823000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/ddr_wr_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/ddr_wr_ctrl.v|
+!i113 0
+R5
+R64
+vdebounce
+R38
+!i10b 1
+!s100 RR:H:74=PaM5kaCYeL`lZ3
+I?@LE4B[?f6WMTQZQ:>RkN1
+R2
+R0
+w1685542954
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw/debounce.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw/debounce.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1692602319.344000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw/debounce.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw/debounce.v|
+!i113 0
+R5
+Z65 !s92 -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vethernet_top
+R38
+!i10b 1
+!s100 ?KVFXSDAoNbOAUA2LF7z<1
+IOL0T3ecm>W^M3LPMho`=B0
+R2
+R0
+w1692602172
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/ethernet_top.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/ethernet_top.v
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1692602319.599000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/ethernet_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/ethernet_top.v|
+!i113 0
+R5
+!s92 -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vfifo_32w32r
+R1
+!i10b 1
+!s100 ITb`?QPz2EG4`QkabkB;J0
+IZlN]3PCnfmQNk9?eLl62Z3
+R2
+R0
+w1685257252
+8F:/old_Quartus_File/cmos_eth_v0.1/fifo_32w32r.v
+FF:/old_Quartus_File/cmos_eth_v0.1/fifo_32w32r.v
+R63
+R4
+r1
+!s85 0
+31
+!s108 1692602316.093000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/fifo_32w32r.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/fifo_32w32r.v|
+!i113 0
+R5
+R6
+vfifo_32w8r
+R1
+!i10b 1
+!s100 Y[OQ9K0NezVe@]Ll:^J9K1
+I>SkaJB`zHQE@hKAeVeKUW1
+R2
+R0
+w1685257351
+8F:/old_Quartus_File/cmos_eth_v0.1/fifo_32w8r.v
+FF:/old_Quartus_File/cmos_eth_v0.1/fifo_32w8r.v
+R63
+R4
+r1
+!s85 0
+31
+!s108 1692602316.151000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/fifo_32w8r.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/fifo_32w8r.v|
+!i113 0
+R5
+R6
+vfifo_eth_8w32r
+R40
+!i10b 1
+!s100 Y5Wo1LaFbAIf[QGJIh>DL1
+I11VkZGmm5F4lIKMPN>Y0;1
+R2
+R0
+w1692522873
+8F:/old_Quartus_File/cmos_eth_v0.1/fifo_eth_8w32r.v
+FF:/old_Quartus_File/cmos_eth_v0.1/fifo_eth_8w32r.v
+R63
+R4
+r1
+!s85 0
+31
+!s108 1692602320.306000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/fifo_eth_8w32r.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/fifo_eth_8w32r.v|
+!i113 0
+R5
+R6
+vgmii_tx_ctrl
+R38
+!i10b 1
+!s100 JTfBR3V1?7VJ[[HfP5ZW]0
+IRTE>P7EMcbm0N6jzTg^Ee0
+R2
+R0
+w1692417402
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/gmii_tx_ctrl.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/gmii_tx_ctrl.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1692602319.409000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/gmii_tx_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/gmii_tx_ctrl.v|
+!i113 0
+R5
+Z66 !s92 -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vi2c_com
+R36
+!i10b 1
+!s100 =zVdJCiUiWFB@D3z;_`SL0
+IB`JfUbIYS<cDHhgk=BFYm1
+R2
+R0
+w1681468716
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/i2c_com.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/i2c_com.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1692602318.156000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/i2c_com.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/i2c_com.v|
+!i113 0
+R5
+R42
+vimg_data_pkt
+R38
+!i10b 1
+!s100 hD_OGgz50V:?<OlNCGFZB0
+IX1aIYa2zDHaE[eH^B>L^f0
+R2
+R0
+w1692523099
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/img_data_pkt.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/img_data_pkt.v
+Z67 L0 23
+R4
+r1
+!s85 0
+31
+!s108 1692602319.472000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/img_data_pkt.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/img_data_pkt.v|
+!i113 0
+R5
+R66
+vkey_bank_switch
+R38
+!i10b 1
+!s100 ^1HfJG4J2P>=>jmB<40GF3
+ILF_YJ7`S<6H^kUkL[MF`62
+R2
+R0
+w1685544914
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw/key_bank_switch.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw/key_bank_switch.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1692602319.282000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw/key_bank_switch.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw/key_bank_switch.v|
+!i113 0
+R5
+R65
+vmem_burst_ddr
+R9
+!i10b 1
+!s100 nIl4Im57X;[=b2J7Q<ZaM2
+IO;32B8iU<H??1HVb_??l=0
+R2
+R0
+w1685430890
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/mem_burst_ddr.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/mem_burst_ddr.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1692602317.959000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/mem_burst_ddr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/mem_burst_ddr.v|
+!i113 0
+R5
+R64
+vov9281_capture
+R36
+!i10b 1
+!s100 XFZAL91NUPYinI;UgS6LX1
+Ie6YBoAi4lDH`T^gbQiWRk1
+R2
+R0
+w1692425981
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/ov9281_capture.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/ov9281_capture.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1692602318.089000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/ov9281_capture.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/ov9281_capture.v|
+!i113 0
+R5
+R42
+vov9281_config
+R36
+!i10b 1
+!s100 fU:gdGAd<1LEWgWKUm;YI2
+ICi<Vg97o<4ELLIN4ML]Z=3
+R2
+R0
+w1692597308
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/ov9281_config.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/ov9281_config.v
+L0 4
+R4
+r1
+!s85 0
+31
+!s108 1692602318.027000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/include/myparam.v|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/ov9281_config.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/ov9281_config.v|
+!i113 0
+R5
+R42
+vpll_u0
+R1
+!i10b 1
+!s100 aDJcDHa?C`7:=2:?zGf7Z3
+I^TFWCVYKf3nGFIFj0bbd^2
+R2
+R0
+w1685259657
+8F:/old_Quartus_File/cmos_eth_v0.1/pll_u0.v
+FF:/old_Quartus_File/cmos_eth_v0.1/pll_u0.v
+R63
+R4
+r1
+!s85 0
+31
+!s108 1692602316.218000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/pll_u0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1|F:/old_Quartus_File/cmos_eth_v0.1/pll_u0.v|
+!i113 0
+R5
+R6
+vpll_u0_altpll
+R1
+!i10b 1
+!s100 2Jm=k13GY[8a5TV1IGBiQ1
+IzLUaNkK<J1jhjimV7G[:B2
+R2
+R0
+w1685258353
+8F:/old_Quartus_File/cmos_eth_v0.1/db/pll_u0_altpll.v
+FF:/old_Quartus_File/cmos_eth_v0.1/db/pll_u0_altpll.v
+L0 30
+R4
+r1
+!s85 0
+31
+!s108 1692602316.462000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/db/pll_u0_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/db|F:/old_Quartus_File/cmos_eth_v0.1/db/pll_u0_altpll.v|
+!i113 0
+R5
+!s92 -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vrgb888_ycrcb888
+R36
+!i10b 1
+!s100 9f6fK4kdn=>T>71BbUCQJ1
+ImY7`e<;]7kEE]Q_iH3V2d2
+R2
+R0
+w1685438092
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/rgb888_ycrcb888.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/rgb888_ycrcb888.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1692602318.475000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/rgb888_ycrcb888.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/rgb888_ycrcb888.v|
+!i113 0
+R5
+Z68 !s92 -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vslave_arbitrate_interface
+R36
+!i10b 1
+!s100 FTRb>gmg_5Fc1Vd26flcR2
+I@i9R5o5=Wml^O3g75fVgj0
+R2
+R0
+w1687756012
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/slave_arbitrate_interface.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/slave_arbitrate_interface.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1692602318.343000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/slave_arbitrate_interface.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/slave_arbitrate_interface.v|
+!i113 0
+R5
+R37
+vstart_transfer_ctrl
+R38
+!i10b 1
+!s100 JT8`Yj55ZR`0iQ32<z9jn1
+InW6:XK_YSn794gEEA[Qc01
+R2
+R0
+w1692516557
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/start_transfer_ctrl.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/start_transfer_ctrl.v
+R67
+R4
+r1
+!s85 0
+31
+!s108 1692602319.536000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/start_transfer_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/start_transfer_ctrl.v|
+!i113 0
+R5
+R66
+vswitch_show
+!s110 1692602313
+!i10b 1
+!s100 0Ao7jlhzAQSfb9kDVD:Qb3
+ICD_c7Siz_g;H7SEAL8P@:3
+R2
+R0
+w1686216512
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/function_rtl/switch_show.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/function_rtl/switch_show.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1692602313.868000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/function_rtl/switch_show.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/function_rtl|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/function_rtl/switch_show.v|
+!i113 0
+R5
+!s92 -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/function_rtl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vtop_sdv
+R38
+!i10b 1
+!s100 f0048OIJM<E>blQ7nia<c1
+IMNCihOn84zz]gneXGULf^1
+R2
+R0
+w1692598068
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1692602318.997000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v|
+!i113 0
+R5
+!s92 -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vtop_testbench
+R36
+!i10b 1
+!s100 W]3cT<c^H<XD:NL:bF6[U2
+IKl9VQUFJ34Y0e_4mhHd@G1
+R2
+R0
+w1692602291
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1692602318.410000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v|
+!i113 0
+R5
+R68
+vudp
+R38
+!i10b 1
+!s100 2di356R=>92bMGlPkH0f^2
+I6>1?`[PRN`EelAb4FmM[?3
+R2
+R0
+w1692594381
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1692602319.671000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp.v|
+!i113 0
+R5
+Z69 !s92 -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vudp_rx
+R38
+!i10b 1
+!s100 zE5]7j@=>ZZ6WDW8L]n`R2
+IU_zzPDE6kIin^KFEihANa0
+R2
+R0
+w1692508734
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp_rx.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp_rx.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1692602319.742000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp_rx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp_rx.v|
+!i113 0
+R5
+R69
+vudp_tx
+R38
+!i10b 1
+!s100 =IhVXlIKk_TGf>nK>IMSF0
+IVaSN`Wo`=H_^WV:E?0HOm2
+R2
+R0
+w1690785145
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp_tx.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp_tx.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1692602319.809000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp_tx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp_tx.v|
+!i113 0
+R5
+R69
+vvga_display
+R38
+!i10b 1
+!s100 z9]D>5DfDRghAo?2GT7:F0
+I6eZ8Z7f=^jU`EL]RAGmh^0
+R2
+R0
+w1692598000
+8F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/vga_display/vga_display.v
+FF:/old_Quartus_File/cmos_eth_v0.1/rtl_code/vga_display/vga_display.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1692602319.082000
+!s107 F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/vga_display/vga_display.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/vga_display|F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/vga_display/vga_display.v|
+!i113 0
+R5
+!s92 -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/vga_display -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact

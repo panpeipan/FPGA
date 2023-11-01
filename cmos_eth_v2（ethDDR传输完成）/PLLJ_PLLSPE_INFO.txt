@@ -1,0 +1,15 @@
+PLL_Name	ddr_wr_ctrl:ddr_wr_ctrl|ddr2:ddr_m0|ddr2_controller_phy:ddr2_controller_phy_inst|ddr2_phy:ddr2_phy_inst|ddr2_phy_alt_mem_phy:ddr2_phy_alt_mem_phy_inst|ddr2_phy_alt_mem_phy_clk_reset:clk|ddr2_phy_alt_mem_phy_pll:pll|altpll:altpll_component|altpll_2il3:auto_generated|pll1
+PLLJITTER	21
+PLLSPEmax	84
+PLLSPEmin	-53
+
+PLL_Name	pll_u0:pll_sdvga|altpll:altpll_component|pll_u0_altpll:auto_generated|pll1
+PLLJITTER	NA
+PLLSPEmax	84
+PLLSPEmin	-53
+
+PLL_Name	sd_pll:pll_sd|altpll:altpll_component|sd_pll_altpll:auto_generated|pll1
+PLLJITTER	30
+PLLSPEmax	84
+PLLSPEmin	-53
+

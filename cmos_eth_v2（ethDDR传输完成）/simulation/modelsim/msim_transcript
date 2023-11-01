@@ -1,0 +1,2522 @@
+# Reading D:/Modelsim/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do cmos4_run_msim_rtl_verilog.do
+# if ![file isdirectory verilog_libs] {
+# 	file mkdir verilog_libs
+# }
+# 
+# vlib verilog_libs/altera_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_ver".
+# 
+# vmap altera_ver ./verilog_libs/altera_ver
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet altera_ver ./verilog_libs/altera_ver 
+# Modifying D:/Modelsim/win64/../modelsim.ini
+# vlog -vlog01compat -work altera_ver {d:/fpga/altera/quartusii/quartus/eda/sim_lib/altera_primitives.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:27 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work altera_ver d:/fpga/altera/quartusii/quartus/eda/sim_lib/altera_primitives.v 
+# -- Compiling module global
+# -- Compiling module carry
+# -- Compiling module cascade
+# -- Compiling module carry_sum
+# -- Compiling module exp
+# -- Compiling module soft
+# -- Compiling module opndrn
+# -- Compiling module row_global
+# -- Compiling module TRI
+# -- Compiling module lut_input
+# -- Compiling module lut_output
+# -- Compiling module latch
+# -- Compiling module dlatch
+# -- Compiling module prim_gdff
+# -- Compiling module dff
+# -- Compiling module dffe
+# -- Compiling module dffea
+# -- Compiling module dffeas
+# -- Compiling module prim_gtff
+# -- Compiling module tff
+# -- Compiling module tffe
+# -- Compiling module prim_gjkff
+# -- Compiling module jkff
+# -- Compiling module jkffe
+# -- Compiling module prim_gsrff
+# -- Compiling module srff
+# -- Compiling module srffe
+# -- Compiling module clklock
+# -- Compiling module alt_inbuf
+# -- Compiling module alt_outbuf
+# -- Compiling module alt_outbuf_tri
+# -- Compiling module alt_iobuf
+# -- Compiling module alt_inbuf_diff
+# -- Compiling module alt_outbuf_diff
+# -- Compiling module alt_outbuf_tri_diff
+# -- Compiling module alt_iobuf_diff
+# -- Compiling module alt_bidir_diff
+# -- Compiling module alt_bidir_buf
+# -- Compiling UDP PRIM_GDFF_LOW
+# -- Compiling UDP PRIM_GDFF_HIGH
+# 
+# Top level modules:
+# 	global
+# 	carry
+# 	cascade
+# 	carry_sum
+# 	exp
+# 	soft
+# 	opndrn
+# 	row_global
+# 	TRI
+# 	lut_input
+# 	lut_output
+# 	latch
+# 	dlatch
+# 	dff
+# 	dffe
+# 	dffea
+# 	dffeas
+# 	tff
+# 	tffe
+# 	jkff
+# 	jkffe
+# 	srff
+# 	srffe
+# 	clklock
+# 	alt_inbuf
+# 	alt_outbuf
+# 	alt_outbuf_tri
+# 	alt_iobuf
+# 	alt_inbuf_diff
+# 	alt_outbuf_diff
+# 	alt_outbuf_tri_diff
+# 	alt_iobuf_diff
+# 	alt_bidir_diff
+# 	alt_bidir_buf
+# End time: 15:18:27 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/lpm_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/lpm_ver".
+# 
+# vmap lpm_ver ./verilog_libs/lpm_ver
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet lpm_ver ./verilog_libs/lpm_ver 
+# Modifying D:/Modelsim/win64/../modelsim.ini
+# vlog -vlog01compat -work lpm_ver {d:/fpga/altera/quartusii/quartus/eda/sim_lib/220model.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:27 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work lpm_ver d:/fpga/altera/quartusii/quartus/eda/sim_lib/220model.v 
+# -- Compiling module LPM_MEMORY_INITIALIZATION
+# -- Compiling module LPM_HINT_EVALUATION
+# -- Compiling module LPM_DEVICE_FAMILIES
+# -- Compiling module lpm_constant
+# -- Compiling module lpm_inv
+# -- Compiling module lpm_and
+# -- Compiling module lpm_or
+# -- Compiling module lpm_xor
+# -- Compiling module lpm_bustri
+# -- Compiling module lpm_mux
+# -- Compiling module lpm_decode
+# -- Compiling module lpm_clshift
+# -- Compiling module lpm_add_sub
+# -- Compiling module lpm_compare
+# -- Compiling module lpm_mult
+# -- Compiling module lpm_divide
+# -- Compiling module lpm_abs
+# -- Compiling module lpm_counter
+# -- Compiling module lpm_latch
+# -- Compiling module lpm_ff
+# -- Compiling module lpm_shiftreg
+# -- Compiling module lpm_ram_dq
+# -- Compiling module lpm_ram_dp
+# -- Compiling module lpm_ram_io
+# -- Compiling module lpm_rom
+# -- Compiling module lpm_fifo
+# -- Compiling module lpm_fifo_dc_dffpipe
+# -- Compiling module lpm_fifo_dc_fefifo
+# -- Compiling module lpm_fifo_dc_async
+# -- Compiling module lpm_fifo_dc
+# -- Compiling module lpm_inpad
+# -- Compiling module lpm_outpad
+# -- Compiling module lpm_bipad
+# 
+# Top level modules:
+# 	lpm_constant
+# 	lpm_inv
+# 	lpm_and
+# 	lpm_or
+# 	lpm_xor
+# 	lpm_bustri
+# 	lpm_mux
+# 	lpm_decode
+# 	lpm_clshift
+# 	lpm_add_sub
+# 	lpm_compare
+# 	lpm_mult
+# 	lpm_divide
+# 	lpm_abs
+# 	lpm_counter
+# 	lpm_latch
+# 	lpm_ff
+# 	lpm_shiftreg
+# 	lpm_ram_dq
+# 	lpm_ram_dp
+# 	lpm_ram_io
+# 	lpm_rom
+# 	lpm_fifo
+# 	lpm_fifo_dc
+# 	lpm_inpad
+# 	lpm_outpad
+# 	lpm_bipad
+# End time: 15:18:27 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/sgate_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/sgate_ver".
+# 
+# vmap sgate_ver ./verilog_libs/sgate_ver
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet sgate_ver ./verilog_libs/sgate_ver 
+# Modifying D:/Modelsim/win64/../modelsim.ini
+# vlog -vlog01compat -work sgate_ver {d:/fpga/altera/quartusii/quartus/eda/sim_lib/sgate.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:27 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work sgate_ver d:/fpga/altera/quartusii/quartus/eda/sim_lib/sgate.v 
+# -- Compiling module oper_add
+# -- Compiling module oper_addsub
+# -- Compiling module mux21
+# -- Compiling module io_buf_tri
+# -- Compiling module io_buf_opdrn
+# -- Compiling module oper_mult
+# -- Compiling module tri_bus
+# -- Compiling module oper_div
+# -- Compiling module oper_mod
+# -- Compiling module oper_left_shift
+# -- Compiling module oper_right_shift
+# -- Compiling module oper_rotate_left
+# -- Compiling module oper_rotate_right
+# -- Compiling module oper_less_than
+# -- Compiling module oper_mux
+# -- Compiling module oper_selector
+# -- Compiling module oper_decoder
+# -- Compiling module oper_bus_mux
+# -- Compiling module oper_latch
+# 
+# Top level modules:
+# 	oper_add
+# 	oper_addsub
+# 	mux21
+# 	io_buf_tri
+# 	io_buf_opdrn
+# 	oper_mult
+# 	tri_bus
+# 	oper_div
+# 	oper_mod
+# 	oper_left_shift
+# 	oper_right_shift
+# 	oper_rotate_left
+# 	oper_rotate_right
+# 	oper_less_than
+# 	oper_mux
+# 	oper_selector
+# 	oper_decoder
+# 	oper_bus_mux
+# 	oper_latch
+# End time: 15:18:27 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/altera_mf_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_mf_ver".
+# 
+# vmap altera_mf_ver ./verilog_libs/altera_mf_ver
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet altera_mf_ver ./verilog_libs/altera_mf_ver 
+# Modifying D:/Modelsim/win64/../modelsim.ini
+# vlog -vlog01compat -work altera_mf_ver {d:/fpga/altera/quartusii/quartus/eda/sim_lib/altera_mf.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:28 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work altera_mf_ver d:/fpga/altera/quartusii/quartus/eda/sim_lib/altera_mf.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# End time: 15:18:28 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/altera_lnsim_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_lnsim_ver".
+# 
+# vmap altera_lnsim_ver ./verilog_libs/altera_lnsim_ver
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet altera_lnsim_ver ./verilog_libs/altera_lnsim_ver 
+# Modifying D:/Modelsim/win64/../modelsim.ini
+# vlog -sv -work altera_lnsim_ver {d:/fpga/altera/quartusii/quartus/eda/sim_lib/altera_lnsim.sv}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:28 on Aug 21,2023
+# vlog -reportprogress 300 -sv -work altera_lnsim_ver d:/fpga/altera/quartusii/quartus/eda/sim_lib/altera_lnsim.sv 
+# -- Compiling package altera_lnsim_functions
+# -- Compiling package altera_generic_pll_functions
+# -- Compiling module generic_pll
+# -- Importing package altera_lnsim_functions
+# -- Importing package altera_generic_pll_functions
+# -- Compiling module generic_cdr
+# -- Compiling module common_28nm_ram_pulse_generator
+# -- Compiling module common_28nm_ram_register
+# -- Compiling module common_28nm_ram_block
+# -- Compiling module generic_m20k
+# -- Compiling module generic_m10k
+# -- Compiling module common_28nm_mlab_cell_pulse_generator
+# -- Compiling module common_28nm_mlab_latch
+# -- Compiling module common_28nm_mlab_cell_core
+# -- Compiling module common_porta_latches
+# -- Compiling module generic_28nm_hp_mlab_cell_impl
+# -- Compiling module common_porta_registers
+# -- Compiling module generic_28nm_lc_mlab_cell_impl
+# -- Compiling module generic_mux
+# -- Compiling module generic_device_pll
+# -- Compiling module altera_mult_add
+# -- Compiling module altera_mult_add_rtl
+# -- Compiling module ama_signed_extension_function
+# -- Compiling module ama_dynamic_signed_function
+# -- Compiling module ama_register_function
+# -- Compiling module ama_register_with_ext_function
+# -- Compiling module ama_data_split_reg_ext_function
+# -- Compiling module ama_coef_reg_ext_function
+# -- Compiling module ama_adder_function
+# -- Compiling module ama_multiplier_function
+# -- Compiling module ama_preadder_function
+# -- Compiling module ama_accumulator_function
+# -- Compiling module ama_systolic_adder_function
+# -- Compiling module ama_scanchain
+# -- Compiling module ama_latency_function
+# -- Compiling module altera_pll_reconfig_tasks
+# -- Compiling module altera_syncram
+# -- Compiling module ALTERA_LNSIM_MEMORY_INITIALIZATION
+# -- Compiling module altera_stratixv_pll
+# -- Compiling module altera_arriav_pll
+# -- Compiling module altera_arriavgz_pll
+# -- Compiling module altera_cyclonev_pll
+# -- Compiling module altera_pll
+# -- Compiling module dps_extra_kick
+# -- Compiling module dprio_init
+# -- Compiling module pll_dps_lcell_comb
+# -- Compiling module twentynm_iopll_ip
+# 
+# Top level modules:
+# 	generic_cdr
+# 	generic_m20k
+# 	generic_m10k
+# 	common_porta_latches
+# 	generic_28nm_hp_mlab_cell_impl
+# 	generic_28nm_lc_mlab_cell_impl
+# 	generic_mux
+# 	generic_device_pll
+# 	altera_mult_add
+# 	altera_pll_reconfig_tasks
+# 	altera_syncram
+# 	altera_pll
+# End time: 15:18:29 on Aug 21,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/cycloneive_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/cycloneive_ver".
+# 
+# vmap cycloneive_ver ./verilog_libs/cycloneive_ver
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet cycloneive_ver ./verilog_libs/cycloneive_ver 
+# Modifying D:/Modelsim/win64/../modelsim.ini
+# vlog -vlog01compat -work cycloneive_ver {d:/fpga/altera/quartusii/quartus/eda/sim_lib/cycloneive_atoms.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:29 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work cycloneive_ver d:/fpga/altera/quartusii/quartus/eda/sim_lib/cycloneive_atoms.v 
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFE
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS_HIGH
+# -- Compiling module cycloneive_dffe
+# -- Compiling module cycloneive_mux21
+# -- Compiling module cycloneive_mux41
+# -- Compiling module cycloneive_and1
+# -- Compiling module cycloneive_and16
+# -- Compiling module cycloneive_bmux21
+# -- Compiling module cycloneive_b17mux21
+# -- Compiling module cycloneive_nmux21
+# -- Compiling module cycloneive_b5mux21
+# -- Compiling module cycloneive_latch
+# -- Compiling module cycloneive_routing_wire
+# -- Compiling module cycloneive_m_cntr
+# -- Compiling module cycloneive_n_cntr
+# -- Compiling module cycloneive_scale_cntr
+# -- Compiling module cycloneive_pll_reg
+# -- Compiling module cycloneive_pll
+# -- Compiling module cycloneive_lcell_comb
+# -- Compiling module cycloneive_ff
+# -- Compiling module cycloneive_ram_pulse_generator
+# -- Compiling module cycloneive_ram_register
+# -- Compiling module cycloneive_ram_block
+# -- Compiling module cycloneive_mac_data_reg
+# -- Compiling module cycloneive_mac_sign_reg
+# -- Compiling module cycloneive_mac_mult_internal
+# -- Compiling module cycloneive_mac_mult
+# -- Compiling module cycloneive_mac_out
+# -- Compiling module cycloneive_io_ibuf
+# -- Compiling module cycloneive_io_obuf
+# -- Compiling module cycloneive_ddio_out
+# -- Compiling module cycloneive_ddio_oe
+# -- Compiling module cycloneive_pseudo_diff_out
+# -- Compiling module cycloneive_io_pad
+# -- Compiling module cycloneive_ena_reg
+# -- Compiling module cycloneive_clkctrl
+# -- Compiling module cycloneive_rublock
+# -- Compiling module cycloneive_apfcontroller
+# -- Compiling module cycloneive_termination_ctrl
+# -- Compiling module cycloneive_termination_rupdn
+# -- Compiling module cycloneive_termination
+# -- Compiling module cycloneive_jtag
+# -- Compiling module cycloneive_crcblock
+# -- Compiling module cycloneive_oscillator
+# 
+# Top level modules:
+# 	cycloneive_dffe
+# 	cycloneive_and1
+# 	cycloneive_and16
+# 	cycloneive_bmux21
+# 	cycloneive_b17mux21
+# 	cycloneive_nmux21
+# 	cycloneive_b5mux21
+# 	cycloneive_pll_reg
+# 	cycloneive_pll
+# 	cycloneive_lcell_comb
+# 	cycloneive_ff
+# 	cycloneive_ram_block
+# 	cycloneive_mac_mult
+# 	cycloneive_mac_out
+# 	cycloneive_io_ibuf
+# 	cycloneive_io_obuf
+# 	cycloneive_ddio_out
+# 	cycloneive_ddio_oe
+# 	cycloneive_pseudo_diff_out
+# 	cycloneive_io_pad
+# 	cycloneive_clkctrl
+# 	cycloneive_rublock
+# 	cycloneive_apfcontroller
+# 	cycloneive_termination
+# 	cycloneive_jtag
+# 	cycloneive_crcblock
+# 	cycloneive_oscillator
+# End time: 15:18:29 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/cycloneiii_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/cycloneiii_ver".
+# 
+# vmap cycloneiii_ver ./verilog_libs/cycloneiii_ver
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet cycloneiii_ver ./verilog_libs/cycloneiii_ver 
+# Modifying D:/Modelsim/win64/../modelsim.ini
+# vlog -vlog01compat -work cycloneiii_ver {d:/fpga/altera/quartusii/quartus/eda/sim_lib/cycloneiii_atoms.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:29 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work cycloneiii_ver d:/fpga/altera/quartusii/quartus/eda/sim_lib/cycloneiii_atoms.v 
+# -- Compiling UDP CYCLONEIII_PRIM_DFFE
+# -- Compiling UDP CYCLONEIII_PRIM_DFFEAS
+# -- Compiling UDP CYCLONEIII_PRIM_DFFEAS_HIGH
+# -- Compiling module cycloneiii_dffe
+# -- Compiling module cycloneiii_mux21
+# -- Compiling module cycloneiii_mux41
+# -- Compiling module cycloneiii_and1
+# -- Compiling module cycloneiii_and16
+# -- Compiling module cycloneiii_bmux21
+# -- Compiling module cycloneiii_b17mux21
+# -- Compiling module cycloneiii_nmux21
+# -- Compiling module cycloneiii_b5mux21
+# -- Compiling module cycloneiii_latch
+# -- Compiling module cycloneiii_routing_wire
+# -- Compiling module cycloneiii_m_cntr
+# -- Compiling module cycloneiii_n_cntr
+# -- Compiling module cycloneiii_scale_cntr
+# -- Compiling module cycloneiii_pll_reg
+# -- Compiling module cycloneiii_pll
+# -- Compiling module cycloneiii_lcell_comb
+# -- Compiling module cycloneiii_ff
+# -- Compiling module cycloneiii_ram_pulse_generator
+# -- Compiling module cycloneiii_ram_register
+# -- Compiling module cycloneiii_ram_block
+# -- Compiling module cycloneiii_mac_data_reg
+# -- Compiling module cycloneiii_mac_sign_reg
+# -- Compiling module cycloneiii_mac_mult_internal
+# -- Compiling module cycloneiii_mac_mult
+# -- Compiling module cycloneiii_mac_out
+# -- Compiling module cycloneiii_io_ibuf
+# -- Compiling module cycloneiii_io_obuf
+# -- Compiling module cycloneiii_ddio_out
+# -- Compiling module cycloneiii_ddio_oe
+# -- Compiling module cycloneiii_pseudo_diff_out
+# -- Compiling module cycloneiii_io_pad
+# -- Compiling module cycloneiii_ena_reg
+# -- Compiling module cycloneiii_clkctrl
+# -- Compiling module cycloneiii_rublock
+# -- Compiling module cycloneiii_apfcontroller
+# -- Compiling module cycloneiii_termination_ctrl
+# -- Compiling module cycloneiii_termination_rupdn
+# -- Compiling module cycloneiii_termination
+# -- Compiling module cycloneiii_jtag
+# -- Compiling module cycloneiii_crcblock
+# -- Compiling module cycloneiii_oscillator
+# 
+# Top level modules:
+# 	cycloneiii_dffe
+# 	cycloneiii_and1
+# 	cycloneiii_and16
+# 	cycloneiii_bmux21
+# 	cycloneiii_b17mux21
+# 	cycloneiii_nmux21
+# 	cycloneiii_b5mux21
+# 	cycloneiii_pll_reg
+# 	cycloneiii_pll
+# 	cycloneiii_lcell_comb
+# 	cycloneiii_ff
+# 	cycloneiii_ram_block
+# 	cycloneiii_mac_mult
+# 	cycloneiii_mac_out
+# 	cycloneiii_io_ibuf
+# 	cycloneiii_io_obuf
+# 	cycloneiii_ddio_out
+# 	cycloneiii_ddio_oe
+# 	cycloneiii_pseudo_diff_out
+# 	cycloneiii_io_pad
+# 	cycloneiii_clkctrl
+# 	cycloneiii_rublock
+# 	cycloneiii_apfcontroller
+# 	cycloneiii_termination
+# 	cycloneiii_jtag
+# 	cycloneiii_crcblock
+# 	cycloneiii_oscillator
+# End time: 15:18:29 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet work rtl_work 
+# Modifying D:/Modelsim/win64/../modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:30 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v 
+# -- Compiling module ddr2_alt_mem_ddrx_controller_top
+# 
+# Top level modules:
+# 	ddr2_alt_mem_ddrx_controller_top
+# End time: 15:18:30 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_controller.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:30 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_controller.v 
+# -- Compiling module alt_mem_ddrx_controller
+# 
+# Top level modules:
+# 	alt_mem_ddrx_controller
+# End time: 15:18:30 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_addr_cmd.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:30 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_addr_cmd.v 
+# -- Compiling module alt_mem_ddrx_addr_cmd
+# 
+# Top level modules:
+# 	alt_mem_ddrx_addr_cmd
+# End time: 15:18:30 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_addr_cmd_wrap.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:30 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_addr_cmd_wrap.v 
+# -- Compiling module alt_mem_ddrx_addr_cmd_wrap
+# 
+# Top level modules:
+# 	alt_mem_ddrx_addr_cmd_wrap
+# End time: 15:18:30 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_controller_st_top.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:30 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_controller_st_top.v 
+# -- Compiling module alt_mem_ddrx_controller_st_top
+# 
+# Top level modules:
+# 	alt_mem_ddrx_controller_st_top
+# End time: 15:18:30 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ddr2_odt_gen.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:30 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ddr2_odt_gen.v 
+# -- Compiling module alt_mem_ddrx_ddr2_odt_gen
+# 
+# Top level modules:
+# 	alt_mem_ddrx_ddr2_odt_gen
+# End time: 15:18:30 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ddr3_odt_gen.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:30 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ddr3_odt_gen.v 
+# -- Compiling module alt_mem_ddrx_ddr3_odt_gen
+# 
+# Top level modules:
+# 	alt_mem_ddrx_ddr3_odt_gen
+# End time: 15:18:30 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_lpddr2_addr_cmd.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:30 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_lpddr2_addr_cmd.v 
+# -- Compiling module alt_mem_ddrx_lpddr2_addr_cmd
+# 
+# Top level modules:
+# 	alt_mem_ddrx_lpddr2_addr_cmd
+# End time: 15:18:30 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_odt_gen.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:30 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_odt_gen.v 
+# -- Compiling module alt_mem_ddrx_odt_gen
+# 
+# Top level modules:
+# 	alt_mem_ddrx_odt_gen
+# End time: 15:18:30 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rdwr_data_tmg.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:30 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rdwr_data_tmg.v 
+# -- Compiling module alt_mem_ddrx_rdwr_data_tmg
+# 
+# Top level modules:
+# 	alt_mem_ddrx_rdwr_data_tmg
+# End time: 15:18:30 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_arbiter.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:30 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_arbiter.v 
+# -- Compiling module alt_mem_ddrx_arbiter
+# 
+# Top level modules:
+# 	alt_mem_ddrx_arbiter
+# End time: 15:18:30 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_burst_gen.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:30 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_burst_gen.v 
+# -- Compiling module alt_mem_ddrx_burst_gen
+# 
+# Top level modules:
+# 	alt_mem_ddrx_burst_gen
+# End time: 15:18:31 on Aug 21,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_cmd_gen.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:31 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_cmd_gen.v 
+# -- Compiling module alt_mem_ddrx_cmd_gen
+# 
+# Top level modules:
+# 	alt_mem_ddrx_cmd_gen
+# End time: 15:18:31 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_csr.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:31 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_csr.v 
+# -- Compiling module alt_mem_ddrx_csr
+# 
+# Top level modules:
+# 	alt_mem_ddrx_csr
+# End time: 15:18:31 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_buffer.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:31 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_buffer.v 
+# -- Compiling module alt_mem_ddrx_buffer
+# 
+# Top level modules:
+# 	alt_mem_ddrx_buffer
+# End time: 15:18:31 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_buffer_manager.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:31 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_buffer_manager.v 
+# -- Compiling module alt_mem_ddrx_buffer_manager
+# 
+# Top level modules:
+# 	alt_mem_ddrx_buffer_manager
+# End time: 15:18:31 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_burst_tracking.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:31 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_burst_tracking.v 
+# -- Compiling module alt_mem_ddrx_burst_tracking
+# 
+# Top level modules:
+# 	alt_mem_ddrx_burst_tracking
+# End time: 15:18:31 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_dataid_manager.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:31 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_dataid_manager.v 
+# -- Compiling module alt_mem_ddrx_dataid_manager
+# 
+# Top level modules:
+# 	alt_mem_ddrx_dataid_manager
+# End time: 15:18:31 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_fifo.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:31 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_fifo.v 
+# -- Compiling module alt_mem_ddrx_fifo
+# 
+# Top level modules:
+# 	alt_mem_ddrx_fifo
+# End time: 15:18:31 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_list.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:31 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_list.v 
+# -- Compiling module alt_mem_ddrx_list
+# 
+# Top level modules:
+# 	alt_mem_ddrx_list
+# End time: 15:18:31 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rdata_path.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:31 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rdata_path.v 
+# -- Compiling module alt_mem_ddrx_rdata_path
+# 
+# Top level modules:
+# 	alt_mem_ddrx_rdata_path
+# End time: 15:18:31 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_wdata_path.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:31 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_wdata_path.v 
+# -- Compiling module alt_mem_ddrx_wdata_path
+# 
+# Top level modules:
+# 	alt_mem_ddrx_wdata_path
+# End time: 15:18:31 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:31 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder.v 
+# -- Compiling module alt_mem_ddrx_ecc_decoder
+# 
+# Top level modules:
+# 	alt_mem_ddrx_ecc_decoder
+# End time: 15:18:31 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder_32_syn.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:31 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder_32_syn.v 
+# -- Compiling module alt_mem_ddrx_ecc_decoder_32_decode
+# -- Compiling module alt_mem_ddrx_ecc_decoder_32_altecc_decoder
+# -- Compiling module alt_mem_ddrx_ecc_decoder_32
+# 
+# Top level modules:
+# 	alt_mem_ddrx_ecc_decoder_32
+# End time: 15:18:31 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder_64_syn.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:31 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder_64_syn.v 
+# -- Compiling module alt_mem_ddrx_ecc_decoder_64_decode
+# -- Compiling module alt_mem_ddrx_ecc_decoder_64_altecc_decoder
+# -- Compiling module alt_mem_ddrx_ecc_decoder_64
+# 
+# Top level modules:
+# 	alt_mem_ddrx_ecc_decoder_64
+# End time: 15:18:31 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:31 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder.v 
+# -- Compiling module alt_mem_ddrx_ecc_encoder
+# 
+# Top level modules:
+# 	alt_mem_ddrx_ecc_encoder
+# End time: 15:18:31 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder_32_syn.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:31 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder_32_syn.v 
+# -- Compiling module alt_mem_ddrx_ecc_encoder_32_altecc_encoder
+# -- Compiling module alt_mem_ddrx_ecc_encoder_32
+# 
+# Top level modules:
+# 	alt_mem_ddrx_ecc_encoder_32
+# End time: 15:18:32 on Aug 21,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder_64_syn.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:32 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder_64_syn.v 
+# -- Compiling module alt_mem_ddrx_ecc_encoder_64_altecc_encoder
+# -- Compiling module alt_mem_ddrx_ecc_encoder_64
+# 
+# Top level modules:
+# 	alt_mem_ddrx_ecc_encoder_64
+# End time: 15:18:32 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder_decoder_wrapper.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:32 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder_decoder_wrapper.v 
+# -- Compiling module alt_mem_ddrx_ecc_encoder_decoder_wrapper
+# 
+# Top level modules:
+# 	alt_mem_ddrx_ecc_encoder_decoder_wrapper
+# End time: 15:18:32 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_input_if.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:32 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_input_if.v 
+# -- Compiling module alt_mem_ddrx_input_if
+# 
+# Top level modules:
+# 	alt_mem_ddrx_input_if
+# End time: 15:18:32 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_mm_st_converter.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:32 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_mm_st_converter.v 
+# -- Compiling module alt_mem_ddrx_mm_st_converter
+# 
+# Top level modules:
+# 	alt_mem_ddrx_mm_st_converter
+# End time: 15:18:32 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rank_timer.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:32 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rank_timer.v 
+# -- Compiling module alt_mem_ddrx_rank_timer
+# 
+# Top level modules:
+# 	alt_mem_ddrx_rank_timer
+# End time: 15:18:32 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_sideband.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:32 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_sideband.v 
+# -- Compiling module alt_mem_ddrx_sideband
+# 
+# Top level modules:
+# 	alt_mem_ddrx_sideband
+# End time: 15:18:32 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_tbp.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:32 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_tbp.v 
+# -- Compiling module alt_mem_ddrx_tbp
+# 
+# Top level modules:
+# 	alt_mem_ddrx_tbp
+# End time: 15:18:32 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_timing_param.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:32 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_timing_param.v 
+# -- Compiling module alt_mem_ddrx_timing_param
+# 
+# Top level modules:
+# 	alt_mem_ddrx_timing_param
+# End time: 15:18:32 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/ddr2.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:32 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/ddr2.v 
+# -- Compiling module ddr2
+# 
+# Top level modules:
+# 	ddr2
+# End time: 15:18:32 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy_alt_mem_phy_seq_wrapper.vo}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:32 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy_alt_mem_phy_seq_wrapper.vo 
+# -- Compiling module ddr2_phy_alt_mem_phy_seq_wrapper
+# 
+# Top level modules:
+# 	ddr2_phy_alt_mem_phy_seq_wrapper
+# End time: 15:18:32 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:32 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy.v 
+# -- Compiling module ddr2_phy
+# 
+# Top level modules:
+# 	ddr2_phy
+# End time: 15:18:32 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/gmii_tx_ctrl.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:32 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/gmii_tx_ctrl.v 
+# -- Compiling module gmii_tx_ctrl
+# 
+# Top level modules:
+# 	gmii_tx_ctrl
+# End time: 15:18:32 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/crc32_d8.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:33 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/crc32_d8.v 
+# -- Compiling module crc32_d8
+# 
+# Top level modules:
+# 	crc32_d8
+# End time: 15:18:33 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_tx.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:33 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_tx.v 
+# -- Compiling module arp_tx
+# 
+# Top level modules:
+# 	arp_tx
+# End time: 15:18:33 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_top.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:33 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_top.v 
+# -- Compiling module arp_top
+# 
+# Top level modules:
+# 	arp_top
+# End time: 15:18:33 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_rx.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:33 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_rx.v 
+# -- Compiling module arp_rx
+# 
+# Top level modules:
+# 	arp_rx
+# End time: 15:18:33 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_ctrl.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:33 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_ctrl.v 
+# -- Compiling module arp_ctrl
+# 
+# Top level modules:
+# 	arp_ctrl
+# End time: 15:18:33 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:33 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp.v 
+# -- Compiling module arp
+# 
+# Top level modules:
+# 	arp
+# End time: 15:18:33 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp_tx.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:33 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp_tx.v 
+# -- Compiling module udp_tx
+# 
+# Top level modules:
+# 	udp_tx
+# End time: 15:18:33 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp_rx.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:33 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp_rx.v 
+# -- Compiling module udp_rx
+# 
+# Top level modules:
+# 	udp_rx
+# End time: 15:18:33 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:33 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp.v 
+# -- Compiling module udp
+# 
+# Top level modules:
+# 	udp
+# End time: 15:18:33 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/ethernet_top.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:33 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/ethernet_top.v 
+# -- Compiling module ethernet_top
+# 
+# Top level modules:
+# 	ethernet_top
+# End time: 15:18:33 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/start_transfer_ctrl.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:33 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/start_transfer_ctrl.v 
+# -- Compiling module start_transfer_ctrl
+# 
+# Top level modules:
+# 	start_transfer_ctrl
+# End time: 15:18:33 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/img_data_pkt.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:33 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/img_data_pkt.v 
+# -- Compiling module img_data_pkt
+# 
+# Top level modules:
+# 	img_data_pkt
+# End time: 15:18:33 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/include {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/include/myparam.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:33 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/include" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/include/myparam.v 
+# End time: 15:18:33 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/function_rtl {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/function_rtl/switch_show.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:33 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/function_rtl" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/function_rtl/switch_show.v 
+# -- Compiling module switch_show
+# 
+# Top level modules:
+# 	switch_show
+# End time: 15:18:33 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw/key_bank_switch.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:33 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw/key_bank_switch.v 
+# -- Compiling module key_bank_switch
+# 
+# Top level modules:
+# 	key_bank_switch
+# End time: 15:18:33 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw/debounce.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:33 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw/debounce.v 
+# -- Compiling module debounce
+# 
+# Top level modules:
+# 	debounce
+# End time: 15:18:34 on Aug 21,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch/bank_switch_ctrl.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:34 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch/bank_switch_ctrl.v 
+# -- Compiling module bank_switch_ctrl
+# 
+# Top level modules:
+# 	bank_switch_ctrl
+# End time: 15:18:34 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch/bank_switch.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:34 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch/bank_switch.v 
+# -- Compiling module bank_switch
+# 
+# Top level modules:
+# 	bank_switch
+# End time: 15:18:34 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/mem_burst_ddr.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:34 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/mem_burst_ddr.v 
+# -- Compiling module mem_burst_ddr
+# 
+# Top level modules:
+# 	mem_burst_ddr
+# End time: 15:18:34 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/ddr_wr_ctrl.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:34 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/ddr_wr_ctrl.v 
+# -- Compiling module ddr_wr_ctrl
+# 
+# Top level modules:
+# 	ddr_wr_ctrl
+# End time: 15:18:34 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/ddr_wdisplayfifo.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:34 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/ddr_wdisplayfifo.v 
+# -- Compiling module ddr_wdisplayfifo
+# 
+# Top level modules:
+# 	ddr_wdisplayfifo
+# End time: 15:18:34 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281 {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/ov9281_capture.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:34 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/ov9281_capture.v 
+# -- Compiling module ov9281_capture
+# 
+# Top level modules:
+# 	ov9281_capture
+# End time: 15:18:34 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281 {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/i2c_com.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:34 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/i2c_com.v 
+# -- Compiling module i2c_com
+# 
+# Top level modules:
+# 	i2c_com
+# End time: 15:18:34 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281 {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/camera_ov9281.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:34 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/camera_ov9281.v 
+# -- Compiling module camera_ov9281
+# 
+# Top level modules:
+# 	camera_ov9281
+# End time: 15:18:34 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/slave_arbitrate_interface.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:34 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/slave_arbitrate_interface.v 
+# -- Compiling module slave_arbitrate_interface
+# 
+# Top level modules:
+# 	slave_arbitrate_interface
+# End time: 15:18:34 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/arbitrate_ctrl.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:34 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/arbitrate_ctrl.v 
+# -- Compiling module arbitrate_ctrl
+# 
+# Top level modules:
+# 	arbitrate_ctrl
+# End time: 15:18:34 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_controller.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:34 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_controller.v 
+# -- Compiling module alt_mem_ddrx_controller
+# 
+# Top level modules:
+# 	alt_mem_ddrx_controller
+# End time: 15:18:34 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ddr2_odt_gen.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:34 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ddr2_odt_gen.v 
+# -- Compiling module alt_mem_ddrx_ddr2_odt_gen
+# 
+# Top level modules:
+# 	alt_mem_ddrx_ddr2_odt_gen
+# End time: 15:18:34 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ddr3_odt_gen.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:34 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ddr3_odt_gen.v 
+# -- Compiling module alt_mem_ddrx_ddr3_odt_gen
+# 
+# Top level modules:
+# 	alt_mem_ddrx_ddr3_odt_gen
+# End time: 15:18:34 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rdwr_data_tmg.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:34 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rdwr_data_tmg.v 
+# -- Compiling module alt_mem_ddrx_rdwr_data_tmg
+# 
+# Top level modules:
+# 	alt_mem_ddrx_rdwr_data_tmg
+# End time: 15:18:34 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_arbiter.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:35 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_arbiter.v 
+# -- Compiling module alt_mem_ddrx_arbiter
+# 
+# Top level modules:
+# 	alt_mem_ddrx_arbiter
+# End time: 15:18:35 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_buffer.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:35 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_buffer.v 
+# -- Compiling module alt_mem_ddrx_buffer
+# 
+# Top level modules:
+# 	alt_mem_ddrx_buffer
+# End time: 15:18:35 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_burst_tracking.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:35 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_burst_tracking.v 
+# -- Compiling module alt_mem_ddrx_burst_tracking
+# 
+# Top level modules:
+# 	alt_mem_ddrx_burst_tracking
+# End time: 15:18:35 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_dataid_manager.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:35 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_dataid_manager.v 
+# -- Compiling module alt_mem_ddrx_dataid_manager
+# 
+# Top level modules:
+# 	alt_mem_ddrx_dataid_manager
+# End time: 15:18:35 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_fifo.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:35 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_fifo.v 
+# -- Compiling module alt_mem_ddrx_fifo
+# 
+# Top level modules:
+# 	alt_mem_ddrx_fifo
+# End time: 15:18:35 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_list.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:35 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_list.v 
+# -- Compiling module alt_mem_ddrx_list
+# 
+# Top level modules:
+# 	alt_mem_ddrx_list
+# End time: 15:18:35 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_wdata_path.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:35 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_wdata_path.v 
+# -- Compiling module alt_mem_ddrx_wdata_path
+# 
+# Top level modules:
+# 	alt_mem_ddrx_wdata_path
+# End time: 15:18:35 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:35 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder.v 
+# -- Compiling module alt_mem_ddrx_ecc_decoder
+# 
+# Top level modules:
+# 	alt_mem_ddrx_ecc_decoder
+# End time: 15:18:35 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder_32_syn.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:35 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder_32_syn.v 
+# -- Compiling module alt_mem_ddrx_ecc_decoder_32_decode
+# -- Compiling module alt_mem_ddrx_ecc_decoder_32_altecc_decoder
+# -- Compiling module alt_mem_ddrx_ecc_decoder_32
+# 
+# Top level modules:
+# 	alt_mem_ddrx_ecc_decoder_32
+# End time: 15:18:35 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:35 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder.v 
+# -- Compiling module alt_mem_ddrx_ecc_encoder
+# 
+# Top level modules:
+# 	alt_mem_ddrx_ecc_encoder
+# End time: 15:18:35 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder_32_syn.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:35 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder_32_syn.v 
+# -- Compiling module alt_mem_ddrx_ecc_encoder_32_altecc_encoder
+# -- Compiling module alt_mem_ddrx_ecc_encoder_32
+# 
+# Top level modules:
+# 	alt_mem_ddrx_ecc_encoder_32
+# End time: 15:18:35 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder_decoder_wrapper.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:35 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_encoder_decoder_wrapper.v 
+# -- Compiling module alt_mem_ddrx_ecc_encoder_decoder_wrapper
+# 
+# Top level modules:
+# 	alt_mem_ddrx_ecc_encoder_decoder_wrapper
+# End time: 15:18:35 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_input_if.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:35 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_input_if.v 
+# -- Compiling module alt_mem_ddrx_input_if
+# 
+# Top level modules:
+# 	alt_mem_ddrx_input_if
+# End time: 15:18:35 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_mm_st_converter.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:35 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_mm_st_converter.v 
+# -- Compiling module alt_mem_ddrx_mm_st_converter
+# 
+# Top level modules:
+# 	alt_mem_ddrx_mm_st_converter
+# End time: 15:18:35 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rank_timer.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:35 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rank_timer.v 
+# -- Compiling module alt_mem_ddrx_rank_timer
+# 
+# Top level modules:
+# 	alt_mem_ddrx_rank_timer
+# End time: 15:18:35 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy_alt_mem_phy_pll.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:36 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy_alt_mem_phy_pll.v 
+# -- Compiling module ddr2_phy_alt_mem_phy_pll
+# 
+# Top level modules:
+# 	ddr2_phy_alt_mem_phy_pll
+# End time: 15:18:36 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/fifo_32w32r.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:36 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/fifo_32w32r.v 
+# -- Compiling module fifo_32w32r
+# 
+# Top level modules:
+# 	fifo_32w32r
+# End time: 15:18:36 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/fifo_32w8r.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:36 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/fifo_32w8r.v 
+# -- Compiling module fifo_32w8r
+# 
+# Top level modules:
+# 	fifo_32w8r
+# End time: 15:18:36 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/pll_u0.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:36 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/pll_u0.v 
+# -- Compiling module pll_u0
+# 
+# Top level modules:
+# 	pll_u0
+# End time: 15:18:36 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/fifo_eth_8w32r.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:36 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/fifo_eth_8w32r.v 
+# -- Compiling module fifo_eth_8w32r
+# 
+# Top level modules:
+# 	fifo_eth_8w32r
+# End time: 15:18:36 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_phy_defines.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:36 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_phy_defines.v 
+# End time: 15:18:36 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/ddr2_controller_phy.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:36 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/ddr2_controller_phy.v 
+# -- Compiling module ddr2_controller_phy
+# 
+# Top level modules:
+# 	ddr2_controller_phy
+# End time: 15:18:36 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/db {F:/old_Quartus_File/cmos_eth_v0.1/db/pll_u0_altpll.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:36 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/db" F:/old_Quartus_File/cmos_eth_v0.1/db/pll_u0_altpll.v 
+# -- Compiling module pll_u0_altpll
+# 
+# Top level modules:
+# 	pll_u0_altpll
+# End time: 15:18:36 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281 {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/ov9281_config.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:36 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/ov9281_config.v 
+# -- Compiling module ov9281_config
+# 
+# Top level modules:
+# 	ov9281_config
+# End time: 15:18:36 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/vga_display {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/vga_display/vga_display.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:36 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/vga_display" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/vga_display/vga_display.v 
+# -- Compiling module vga_display
+# 
+# Top level modules:
+# 	vga_display
+# End time: 15:18:36 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:36 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v 
+# -- Compiling module top_sdv
+# 
+# Top level modules:
+# 	top_sdv
+# End time: 15:18:36 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:36 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v 
+# -- Compiling module ddr2_alt_mem_ddrx_controller_top
+# 
+# Top level modules:
+# 	ddr2_alt_mem_ddrx_controller_top
+# End time: 15:18:36 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_addr_cmd.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:36 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_addr_cmd.v 
+# -- Compiling module alt_mem_ddrx_addr_cmd
+# 
+# Top level modules:
+# 	alt_mem_ddrx_addr_cmd
+# End time: 15:18:36 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_addr_cmd_wrap.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:36 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_addr_cmd_wrap.v 
+# -- Compiling module alt_mem_ddrx_addr_cmd_wrap
+# 
+# Top level modules:
+# 	alt_mem_ddrx_addr_cmd_wrap
+# End time: 15:18:36 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_controller_st_top.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:36 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_controller_st_top.v 
+# -- Compiling module alt_mem_ddrx_controller_st_top
+# 
+# Top level modules:
+# 	alt_mem_ddrx_controller_st_top
+# End time: 15:18:36 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_odt_gen.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:36 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_odt_gen.v 
+# -- Compiling module alt_mem_ddrx_odt_gen
+# 
+# Top level modules:
+# 	alt_mem_ddrx_odt_gen
+# End time: 15:18:36 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_burst_gen.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:37 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_burst_gen.v 
+# -- Compiling module alt_mem_ddrx_burst_gen
+# 
+# Top level modules:
+# 	alt_mem_ddrx_burst_gen
+# End time: 15:18:37 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_cmd_gen.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:37 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_cmd_gen.v 
+# -- Compiling module alt_mem_ddrx_cmd_gen
+# 
+# Top level modules:
+# 	alt_mem_ddrx_cmd_gen
+# End time: 15:18:37 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rdata_path.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:37 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_rdata_path.v 
+# -- Compiling module alt_mem_ddrx_rdata_path
+# 
+# Top level modules:
+# 	alt_mem_ddrx_rdata_path
+# End time: 15:18:37 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_sideband.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:37 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_sideband.v 
+# -- Compiling module alt_mem_ddrx_sideband
+# 
+# Top level modules:
+# 	alt_mem_ddrx_sideband
+# End time: 15:18:37 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_tbp.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:37 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_tbp.v 
+# -- Compiling module alt_mem_ddrx_tbp
+# 
+# Top level modules:
+# 	alt_mem_ddrx_tbp
+# End time: 15:18:37 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_timing_param.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:37 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_timing_param.v 
+# -- Compiling module alt_mem_ddrx_timing_param
+# 
+# Top level modules:
+# 	alt_mem_ddrx_timing_param
+# End time: 15:18:37 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy_alt_mem_phy.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:37 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/ddr2_phy_alt_mem_phy.v 
+# -- Compiling module ddr2_phy_alt_mem_phy
+# -- Compiling module ddr2_phy_alt_mem_phy_clk_reset
+# -- Compiling module ddr2_phy_alt_mem_phy_ac
+# -- Compiling module ddr2_phy_alt_mem_phy_addr_cmd
+# -- Compiling module ddr2_phy_alt_mem_phy_dp_io
+# -- Compiling module ddr2_phy_alt_mem_phy_read_dp
+# -- Compiling module ddr2_phy_alt_mem_phy_write_dp_fr
+# -- Compiling module ddr2_phy_alt_mem_phy_rdata_valid
+# -- Compiling module ddr2_phy_alt_mem_phy_mux
+# -- Compiling module ddr2_phy_alt_mem_phy_mimic
+# -- Compiling module ddr2_phy_alt_mem_phy_mimic_debug
+# -- Compiling module ddr2_phy_alt_mem_phy_reset_pipe
+# 
+# Top level modules:
+# 	ddr2_phy_alt_mem_phy
+# 	ddr2_phy_alt_mem_phy_mux
+# End time: 15:18:37 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch/bank_switch.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:37 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch/bank_switch.v 
+# -- Compiling module bank_switch
+# 
+# Top level modules:
+# 	bank_switch
+# End time: 15:18:37 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch/bank_switch_ctrl.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:37 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/bank_switch/bank_switch_ctrl.v 
+# -- Compiling module bank_switch_ctrl
+# 
+# Top level modules:
+# 	bank_switch_ctrl
+# End time: 15:18:37 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/ddr_wdisplayfifo.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:37 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/ddr_wdisplayfifo.v 
+# -- Compiling module ddr_wdisplayfifo
+# 
+# Top level modules:
+# 	ddr_wdisplayfifo
+# End time: 15:18:37 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/ddr_wr_ctrl.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:37 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/ddr_wr_ctrl.v 
+# -- Compiling module ddr_wr_ctrl
+# 
+# Top level modules:
+# 	ddr_wr_ctrl
+# End time: 15:18:37 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/ddr2wr_fifo.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:37 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/ddr2wr_fifo.v 
+# -- Compiling module ddr2wr_fifo
+# 
+# Top level modules:
+# 	ddr2wr_fifo
+# End time: 15:18:37 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/mem_burst_ddr.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:37 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/ddr_ctrl/mem_burst_ddr.v 
+# -- Compiling module mem_burst_ddr
+# 
+# Top level modules:
+# 	mem_burst_ddr
+# End time: 15:18:37 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281 {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/ov9281_config.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:38 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/ov9281_config.v 
+# -- Compiling module ov9281_config
+# 
+# Top level modules:
+# 	ov9281_config
+# End time: 15:18:38 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281 {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/ov9281_capture.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:38 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/ov9281_capture.v 
+# -- Compiling module ov9281_capture
+# 
+# Top level modules:
+# 	ov9281_capture
+# End time: 15:18:38 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281 {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/i2c_com.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:38 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/i2c_com.v 
+# -- Compiling module i2c_com
+# 
+# Top level modules:
+# 	i2c_com
+# End time: 15:18:38 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281 {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/camera_ov9281.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:38 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/camera_ov9281.v 
+# -- Compiling module camera_ov9281
+# 
+# Top level modules:
+# 	camera_ov9281
+# End time: 15:18:38 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/arbitrate_ctrl.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:38 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/arbitrate_ctrl.v 
+# -- Compiling module arbitrate_ctrl
+# 
+# Top level modules:
+# 	arbitrate_ctrl
+# End time: 15:18:38 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/slave_arbitrate_interface.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:38 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/slave_arbitrate_interface.v 
+# -- Compiling module slave_arbitrate_interface
+# 
+# Top level modules:
+# 	slave_arbitrate_interface
+# End time: 15:18:38 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:38 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v 
+# -- Compiling module top_testbench
+# 
+# Top level modules:
+# 	top_testbench
+# End time: 15:18:38 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/rgb888_ycrcb888.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:38 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/rgb888_ycrcb888.v 
+# -- Compiling module rgb888_ycrcb888
+# 
+# Top level modules:
+# 	rgb888_ycrcb888
+# End time: 15:18:38 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:38 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v 
+# -- Compiling module top_sdv
+# 
+# Top level modules:
+# 	top_sdv
+# End time: 15:18:39 on Aug 21,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/vga_display {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/vga_display/vga_display.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:39 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/vga_display" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/vga_display/vga_display.v 
+# -- Compiling module vga_display
+# 
+# Top level modules:
+# 	vga_display
+# End time: 15:18:39 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/testbench {F:/old_Quartus_File/cmos_eth_v0.1/testbench/ddr2_full_mem_model.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:39 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/testbench" F:/old_Quartus_File/cmos_eth_v0.1/testbench/ddr2_full_mem_model.v 
+# -- Compiling module ddr2_full_mem_model_ram_module
+# -- Compiling module ddr2_full_mem_model
+# 
+# Top level modules:
+# 	ddr2_full_mem_model
+# End time: 15:18:39 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/testbench {F:/old_Quartus_File/cmos_eth_v0.1/testbench/ddr2_mem_model.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:39 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/testbench" F:/old_Quartus_File/cmos_eth_v0.1/testbench/ddr2_mem_model.v 
+# -- Compiling module ddr2_mem_model_ram_module
+# -- Compiling module ddr2_mem_model
+# 
+# Top level modules:
+# 	ddr2_mem_model
+# End time: 15:18:39 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw/key_bank_switch.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:39 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw/key_bank_switch.v 
+# -- Compiling module key_bank_switch
+# 
+# Top level modules:
+# 	key_bank_switch
+# End time: 15:18:39 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw/debounce.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:39 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/key_sw/debounce.v 
+# -- Compiling module debounce
+# 
+# Top level modules:
+# 	debounce
+# End time: 15:18:39 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/gmii_tx_ctrl.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:39 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/gmii_tx_ctrl.v 
+# -- Compiling module gmii_tx_ctrl
+# 
+# Top level modules:
+# 	gmii_tx_ctrl
+# End time: 15:18:39 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/img_data_pkt.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:39 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/img_data_pkt.v 
+# -- Compiling module img_data_pkt
+# 
+# Top level modules:
+# 	img_data_pkt
+# End time: 15:18:39 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/start_transfer_ctrl.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:39 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth_ctrl/start_transfer_ctrl.v 
+# -- Compiling module start_transfer_ctrl
+# 
+# Top level modules:
+# 	start_transfer_ctrl
+# End time: 15:18:39 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/ethernet_top.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:39 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/ethernet_top.v 
+# -- Compiling module ethernet_top
+# 
+# Top level modules:
+# 	ethernet_top
+# End time: 15:18:39 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:39 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp.v 
+# -- Compiling module udp
+# 
+# Top level modules:
+# 	udp
+# End time: 15:18:39 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp_rx.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:39 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp_rx.v 
+# -- Compiling module udp_rx
+# 
+# Top level modules:
+# 	udp_rx
+# End time: 15:18:39 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp_tx.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:39 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp_tx.v 
+# -- Compiling module udp_tx
+# 
+# Top level modules:
+# 	udp_tx
+# End time: 15:18:39 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:39 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp.v 
+# -- Compiling module arp
+# 
+# Top level modules:
+# 	arp
+# End time: 15:18:39 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_ctrl.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:39 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_ctrl.v 
+# -- Compiling module arp_ctrl
+# 
+# Top level modules:
+# 	arp_ctrl
+# End time: 15:18:39 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_rx.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:39 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_rx.v 
+# -- Compiling module arp_rx
+# 
+# Top level modules:
+# 	arp_rx
+# End time: 15:18:40 on Aug 21,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_top.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:40 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_top.v 
+# -- Compiling module arp_top
+# 
+# Top level modules:
+# 	arp_top
+# End time: 15:18:40 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_tx.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:40 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/arp_tx.v 
+# -- Compiling module arp_tx
+# 
+# Top level modules:
+# 	arp_tx
+# End time: 15:18:40 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/crc32_d8.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:40 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/arp/crc32_d8.v 
+# -- Compiling module crc32_d8
+# 
+# Top level modules:
+# 	crc32_d8
+# End time: 15:18:40 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1 {F:/old_Quartus_File/cmos_eth_v0.1/fifo_eth_8w32r.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:40 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1" F:/old_Quartus_File/cmos_eth_v0.1/fifo_eth_8w32r.v 
+# -- Compiling module fifo_eth_8w32r
+# 
+# Top level modules:
+# 	fifo_eth_8w32r
+# End time: 15:18:40 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/include {F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/include/myparam.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:18:40 on Aug 21,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/include" F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/include/myparam.v 
+# End time: 15:18:40 on Aug 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  top_testbench
+# vsim -gui "+altera" -l msim_transcript -do "cmos4_run_msim_rtl_verilog.do" 
+# Start time: 15:18:40 on Aug 21,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Note: (vopt-143) Recognized 1 FSM in module "alt_mem_ddrx_rank_timer(fast)".
+# 
+# ** Note: (vopt-143) Recognized 1 FSM in module "udp_tx(fast)".
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v(644): (vopt-2685) [TFMPC] - Too few port connections for 'controller_inst'.  Expected 86, found 75.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v(644): (vopt-2718) [TFMPC] - Missing connection for port 'sideband_in_refresh'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v(644): (vopt-2718) [TFMPC] - Missing connection for port 'cmd_gen_busy'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v(644): (vopt-2718) [TFMPC] - Missing connection for port 'tbp_empty'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v(644): (vopt-2718) [TFMPC] - Missing connection for port 'local_zqcal_chip'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v(644): (vopt-2718) [TFMPC] - Missing connection for port 'local_zqcal_req'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v(644): (vopt-2718) [TFMPC] - Missing connection for port 'local_deep_powerdn_chip'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v(644): (vopt-2718) [TFMPC] - Missing connection for port 'local_deep_powerdn_req'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v(644): (vopt-2718) [TFMPC] - Missing connection for port 'local_deep_powerdn_ack'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v(644): (vopt-2718) [TFMPC] - Missing connection for port 'afi_init_req'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v(644): (vopt-2718) [TFMPC] - Missing connection for port 'afi_wrank'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v(644): (vopt-2718) [TFMPC] - Missing connection for port 'afi_rrank'.
+# 
+# ** Note: (vopt-143) Recognized 1 FSM in module "udp_rx(fast)".
+# 
+# ** Note: (vopt-143) Recognized 2 FSMs in module "ddr_wr_ctrl(fast)".
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v(343): (vopt-2685) [TFMPC] - Too few port connections for 'top'.  Expected 60, found 58.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v(343): (vopt-2718) [TFMPC] - Missing connection for port 'i_arp_key'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v(343): (vopt-2718) [TFMPC] - Missing connection for port 'close_key'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v(447): (vopt-2685) [TFMPC] - Too few port connections for 'pc_eth'.  Expected 26, found 20.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v(447): (vopt-2718) [TFMPC] - Missing connection for port 'e_txc'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v(447): (vopt-2718) [TFMPC] - Missing connection for port 'e_mdio'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v(447): (vopt-2718) [TFMPC] - Missing connection for port 'e_mdc'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v(447): (vopt-2718) [TFMPC] - Missing connection for port 'e_reset'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v(447): (vopt-2718) [TFMPC] - Missing connection for port 'fpga_gclk'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v(447): (vopt-2718) [TFMPC] - Missing connection for port 'i_touch_key'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v(476): (vopt-2685) [TFMPC] - Too few port connections for 'mem'.  Expected 15, found 14.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v(476): (vopt-2718) [TFMPC] - Missing connection for port 'global_reset_n'.
+# 
+# ** Note: (vopt-143) Recognized 1 FSM in module "mem_burst_ddr(fast)".
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(363): (vopt-2685) [TFMPC] - Too few port connections for 'slave_m0'.  Expected 13, found 12.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(363): (vopt-2718) [TFMPC] - Missing connection for port 'empty_error'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(382): (vopt-2685) [TFMPC] - Too few port connections for 'camera_m1'.  Expected 16, found 14.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(382): (vopt-2718) [TFMPC] - Missing connection for port 'camera_8data_valid'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(382): (vopt-2718) [TFMPC] - Missing connection for port 'camera_8data'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(424): (vopt-2685) [TFMPC] - Too few port connections for 'slave_m1'.  Expected 13, found 12.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(424): (vopt-2718) [TFMPC] - Missing connection for port 'empty_error'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(444): (vopt-2685) [TFMPC] - Too few port connections for 'camera_m2'.  Expected 16, found 14.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(444): (vopt-2718) [TFMPC] - Missing connection for port 'camera_8data_valid'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(444): (vopt-2718) [TFMPC] - Missing connection for port 'camera_8data'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(486): (vopt-2685) [TFMPC] - Too few port connections for 'slave_m2'.  Expected 13, found 12.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(486): (vopt-2718) [TFMPC] - Missing connection for port 'empty_error'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(569): (vopt-2685) [TFMPC] - Too few port connections for 'arbitrate_ctrl_u0'.  Expected 31, found 26.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(569): (vopt-2718) [TFMPC] - Missing connection for port 'slave3_ren'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(569): (vopt-2718) [TFMPC] - Missing connection for port 'slave3_data'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(569): (vopt-2718) [TFMPC] - Missing connection for port 'slave3_Wlen'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(569): (vopt-2718) [TFMPC] - Missing connection for port 'slave3_Waddr'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(569): (vopt-2718) [TFMPC] - Missing connection for port 'slave3_req'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(611): (vopt-2685) [TFMPC] - Too few port connections for 'bank_switch_ctrl_u0'.  Expected 30, found 23.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(611): (vopt-2718) [TFMPC] - Missing connection for port 'slave3_rd_bank'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(611): (vopt-2718) [TFMPC] - Missing connection for port 'slave3_rd_load'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(611): (vopt-2718) [TFMPC] - Missing connection for port 'slave3_wr_bank'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(611): (vopt-2718) [TFMPC] - Missing connection for port 'slave3_wr_load'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(611): (vopt-2718) [TFMPC] - Missing connection for port 'slave3_frame_rd_done'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(611): (vopt-2718) [TFMPC] - Missing connection for port 'slave3_frame_wr_done'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(611): (vopt-2718) [TFMPC] - Missing connection for port 'slave3_valid'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(656): (vopt-2685) [TFMPC] - Too few port connections for 'ddr_wr_ctrl'.  Expected 58, found 52.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(656): (vopt-2718) [TFMPC] - Missing connection for port 'slave3_frame_rd_done'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(656): (vopt-2718) [TFMPC] - Missing connection for port 'slave3_frame_wr_done'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(656): (vopt-2718) [TFMPC] - Missing connection for port 'slave3_rd_bank'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(656): (vopt-2718) [TFMPC] - Missing connection for port 'slave3_rd_load'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(656): (vopt-2718) [TFMPC] - Missing connection for port 'slave3_wr_bank'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(656): (vopt-2718) [TFMPC] - Missing connection for port 'slave3_wr_load'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(864): (vopt-2685) [TFMPC] - Too few port connections for 'eth_top'.  Expected 26, found 25.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(864): (vopt-2718) [TFMPC] - Missing connection for port 'fpga_gclk'.
+# 
+# ** Note: (vopt-143) Recognized 1 FSM in module "arp_rx(fast)".
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/ddr2_controller_phy.v(324): (vopt-2685) [TFMPC] - Too few port connections for 'ddr2_phy_inst'.  Expected 56, found 55.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/ddr2_controller_phy.v(324): (vopt-2718) [TFMPC] - Missing connection for port 'ctl_cal_warning'.
+# 
+# ** Note: (vopt-143) Recognized 3 FSMs in module "alt_mem_ddrx_sideband(fast)".
+# 
+# ** Note: (vopt-143) Recognized 1 FSM in module "ddr2_phy_alt_mem_phy_mimic(fast)".
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/ddr2.v(133): (vopt-2685) [TFMPC] - Too few port connections for 'ddr2_controller_phy_inst'.  Expected 77, found 76.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/ddr2.v(133): (vopt-2718) [TFMPC] - Missing connection for port 'ecc_interrupt'.
+# 
+# ** Note: (vopt-143) Recognized 2 FSMs in module "bank_switch(fast)".
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp.v(91): (vopt-2685) [TFMPC] - Too few port connections for 'tx_u1'.  Expected 16, found 15.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp.v(91): (vopt-2718) [TFMPC] - Missing connection for port 'o_gmii_tx_error'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp.v(91): (vopt-2685) [TFMPC] - Too few port connections for 'tx_u1'.  Expected 16, found 15.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/eth/udp/udp.v(91): (vopt-2718) [TFMPC] - Missing connection for port 'o_gmii_tx_error'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/camera_ov9281.v(40): (vopt-2685) [TFMPC] - Too few port connections for 'camera_capture_m0'.  Expected 11, found 10.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/OV9281/camera_ov9281.v(40): (vopt-2718) [TFMPC] - Missing connection for port 'num_cnt'.
+# 
+# ** Warning: F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_tbp.v(1859): (vopt-2182) 'all_complete_vector' might be read before written in always_comb or always @* block.
+# 
+# Loading work.top_testbench(fast)
+# Loading work.rgb888_ycrcb888(fast)
+# Loading work.top_sdv(fast)
+# Loading work.camera_ov9281(fast)
+# Loading work.ov9281_capture(fast)
+# Loading work.ov9281_config(fast)
+# Loading work.fifo_32w32r(fast)
+# Loading altera_mf_ver.dcfifo(fast)
+# Loading altera_mf_ver.dcfifo_mixed_widths(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast)
+# Loading altera_mf_ver.dcfifo_async(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast__2)
+# Loading altera_mf_ver.dcfifo_dffpipe(fast__2)
+# Loading altera_mf_ver.dcfifo_dffpipe(fast__3)
+# Loading altera_mf_ver.dcfifo_dffpipe(fast__4)
+# Loading altera_mf_ver.dcfifo_fefifo(fast)
+# Loading altera_mf_ver.dcfifo_fefifo(fast__1)
+# Loading altera_mf_ver.dcfifo_low_latency(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast__1)
+# Loading altera_mf_ver.ALTERA_MF_HINT_EVALUATION(fast)
+# Loading altera_mf_ver.dcfifo_dffpipe(fast)
+# Loading altera_mf_ver.dcfifo_dffpipe(fast__1)
+# Loading work.slave_arbitrate_interface(fast)
+# Loading work.slave_arbitrate_interface(fast__1)
+# Loading work.slave_arbitrate_interface(fast__2)
+# Loading work.arbitrate_ctrl(fast)
+# Loading work.bank_switch_ctrl(fast)
+# Loading work.bank_switch(fast)
+# Loading work.ddr_wr_ctrl(fast)
+# Loading work.mem_burst_ddr(fast)
+# Loading work.ddr2(fast)
+# Loading work.ddr2_controller_phy(fast)
+# Loading work.ddr2_alt_mem_ddrx_controller_top(fast)
+# Loading work.alt_mem_ddrx_mm_st_converter(fast)
+# Loading work.alt_mem_ddrx_controller_st_top(fast)
+# Loading work.alt_mem_ddrx_controller(fast)
+# Loading work.alt_mem_ddrx_input_if(fast)
+# Loading work.alt_mem_ddrx_cmd_gen(fast)
+# Loading work.alt_mem_ddrx_tbp(fast)
+# Loading work.alt_mem_ddrx_arbiter(fast)
+# Loading work.alt_mem_ddrx_burst_gen(fast)
+# Loading work.alt_mem_ddrx_addr_cmd_wrap(fast)
+# Loading work.alt_mem_ddrx_addr_cmd(fast)
+# Loading work.alt_mem_ddrx_odt_gen(fast)
+# Loading work.alt_mem_ddrx_ddr2_odt_gen(fast)
+# Loading work.alt_mem_ddrx_ddr3_odt_gen(fast)
+# Loading work.alt_mem_ddrx_rdwr_data_tmg(fast)
+# Loading work.alt_mem_ddrx_wdata_path(fast)
+# Loading work.alt_mem_ddrx_list(fast)
+# Loading work.alt_mem_ddrx_list(fast__1)
+# Loading work.alt_mem_ddrx_burst_tracking(fast)
+# Loading work.alt_mem_ddrx_dataid_manager(fast)
+# Loading work.alt_mem_ddrx_list(fast__2)
+# Loading work.alt_mem_ddrx_buffer(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast__4)
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# Loading work.alt_mem_ddrx_buffer(fast__1)
+# Loading altera_mf_ver.altsyncram(fast__1)
+# Loading work.alt_mem_ddrx_fifo(fast)
+# Loading altera_mf_ver.scfifo(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast__3)
+# Loading work.alt_mem_ddrx_rdata_path(fast)
+# Loading work.alt_mem_ddrx_fifo(fast__1)
+# Loading altera_mf_ver.scfifo(fast__1)
+# Loading work.alt_mem_ddrx_fifo(fast__2)
+# Loading altera_mf_ver.scfifo(fast__2)
+# Loading work.alt_mem_ddrx_list(fast__3)
+# Loading work.alt_mem_ddrx_list(fast__4)
+# Loading work.alt_mem_ddrx_fifo(fast__3)
+# Loading altera_mf_ver.scfifo(fast__3)
+# Loading work.alt_mem_ddrx_buffer(fast__2)
+# Loading altera_mf_ver.altsyncram(fast__2)
+# Loading work.alt_mem_ddrx_ecc_encoder_decoder_wrapper(fast)
+# Loading work.alt_mem_ddrx_ecc_encoder(fast)
+# Loading work.alt_mem_ddrx_ecc_encoder_32(fast)
+# Loading work.alt_mem_ddrx_ecc_encoder_32_altecc_encoder(fast)
+# Loading work.alt_mem_ddrx_ecc_decoder(fast)
+# Loading work.alt_mem_ddrx_ecc_decoder_32(fast)
+# Loading work.alt_mem_ddrx_ecc_decoder_32_altecc_decoder(fast)
+# Loading work.alt_mem_ddrx_ecc_decoder_32_decode(fast)
+# Loading work.alt_mem_ddrx_sideband(fast)
+# Loading work.alt_mem_ddrx_rank_timer(fast)
+# Loading work.alt_mem_ddrx_timing_param(fast)
+# Loading work.ddr2_phy(fast)
+# Loading work.ddr2_phy_alt_mem_phy(fast)
+# Loading work.ddr2_phy_alt_mem_phy_dp_io(fast)
+# Loading cycloneiii_ver.cycloneiii_ddio_out(fast)
+# Loading cycloneiii_ver.cycloneiii_latch(fast)
+# Loading altera_ver.dffeas(fast)
+# Loading cycloneiii_ver.cycloneiii_routing_wire(fast)
+# Loading cycloneiii_ver.cycloneiii_mux21(fast)
+# Loading cycloneiii_ver.cycloneiii_io_obuf(fast)
+# Loading cycloneiii_ver.cycloneiii_io_ibuf(fast)
+# Loading altera_mf_ver.altddio_in(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast__5)
+# Loading cycloneiii_ver.cycloneiii_ddio_oe(fast)
+# Loading work.ddr2_phy_alt_mem_phy_read_dp(fast)
+# Loading altera_mf_ver.altsyncram(fast__3)
+# Loading work.ddr2_phy_alt_mem_phy_write_dp_fr(fast)
+# Loading work.ddr2_phy_alt_mem_phy_addr_cmd(fast)
+# Loading work.ddr2_phy_alt_mem_phy_ac(fast)
+# Loading altera_mf_ver.altddio_out(fast__1)
+# Loading work.ddr2_phy_alt_mem_phy_ac(fast__1)
+# Loading altera_mf_ver.altddio_out(fast)
+# Loading work.ddr2_phy_alt_mem_phy_seq_wrapper(fast)
+# Loading sgate_ver.oper_add(fast)
+# Loading lpm_ver.lpm_add_sub(fast)
+# Loading sgate_ver.oper_add(fast__1)
+# Loading lpm_ver.lpm_add_sub(fast__1)
+# Loading sgate_ver.oper_add(fast__2)
+# Loading lpm_ver.lpm_add_sub(fast__2)
+# Loading sgate_ver.oper_add(fast__3)
+# Loading lpm_ver.lpm_add_sub(fast__3)
+# Loading sgate_ver.oper_add(fast__4)
+# Loading lpm_ver.lpm_add_sub(fast__4)
+# Loading sgate_ver.oper_add(fast__5)
+# Loading lpm_ver.lpm_add_sub(fast__5)
+# Loading sgate_ver.oper_add(fast__6)
+# Loading lpm_ver.lpm_add_sub(fast__6)
+# Loading sgate_ver.oper_add(fast__7)
+# Loading lpm_ver.lpm_add_sub(fast__7)
+# Loading sgate_ver.oper_add(fast__8)
+# Loading lpm_ver.lpm_add_sub(fast__8)
+# Loading sgate_ver.oper_add(fast__9)
+# Loading lpm_ver.lpm_add_sub(fast__9)
+# Loading sgate_ver.oper_add(fast__10)
+# Loading lpm_ver.lpm_add_sub(fast__10)
+# Loading sgate_ver.oper_add(fast__11)
+# Loading lpm_ver.lpm_add_sub(fast__11)
+# Loading sgate_ver.oper_add(fast__12)
+# Loading lpm_ver.lpm_add_sub(fast__12)
+# Loading sgate_ver.oper_add(fast__13)
+# Loading lpm_ver.lpm_add_sub(fast__13)
+# Loading sgate_ver.oper_decoder(fast)
+# Loading lpm_ver.lpm_decode(fast)
+# Loading sgate_ver.oper_decoder(fast__1)
+# Loading lpm_ver.lpm_decode(fast__1)
+# Loading sgate_ver.oper_decoder(fast__2)
+# Loading lpm_ver.lpm_decode(fast__2)
+# Loading sgate_ver.oper_left_shift(fast)
+# Loading sgate_ver.oper_less_than(fast)
+# Loading sgate_ver.oper_less_than(fast__1)
+# Loading sgate_ver.oper_less_than(fast__2)
+# Loading sgate_ver.oper_less_than(fast__3)
+# Loading sgate_ver.oper_less_than(fast__4)
+# Loading sgate_ver.oper_less_than(fast__5)
+# Loading sgate_ver.oper_mux(fast)
+# Loading sgate_ver.oper_selector(fast)
+# Loading sgate_ver.oper_selector(fast__1)
+# Loading sgate_ver.oper_selector(fast__2)
+# Loading sgate_ver.oper_selector(fast__3)
+# Loading sgate_ver.oper_selector(fast__4)
+# Loading sgate_ver.oper_selector(fast__5)
+# Loading sgate_ver.oper_selector(fast__6)
+# Loading sgate_ver.oper_selector(fast__7)
+# Loading sgate_ver.oper_selector(fast__8)
+# Loading sgate_ver.oper_selector(fast__9)
+# Loading sgate_ver.oper_selector(fast__10)
+# Loading sgate_ver.oper_selector(fast__11)
+# Loading sgate_ver.oper_selector(fast__12)
+# Loading sgate_ver.oper_selector(fast__13)
+# Loading work.ddr2_phy_alt_mem_phy_rdata_valid(fast)
+# Loading altera_mf_ver.altsyncram(fast__4)
+# Loading work.ddr2_phy_alt_mem_phy_clk_reset(fast)
+# Loading altera_mf_ver.altddio_bidir(fast)
+# Loading work.ddr2_phy_alt_mem_phy_pll(fast)
+# Loading altera_mf_ver.altpll(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast__6)
+# Loading altera_mf_ver.MF_cycloneiii_pll(fast)
+# Loading altera_mf_ver.cda_m_cntr(fast)
+# Loading altera_mf_ver.cda_n_cntr(fast)
+# Loading altera_mf_ver.cda_scale_cntr(fast)
+# Loading altera_mf_ver.pll_iobuf(fast)
+# Loading work.ddr2_phy_alt_mem_phy_reset_pipe(fast)
+# Loading work.ddr2_phy_alt_mem_phy_reset_pipe(fast__1)
+# Loading work.ddr2_phy_alt_mem_phy_mimic(fast)
+# Loading work.key_bank_switch(fast)
+# Loading work.debounce(fast)
+# Loading work.switch_show(fast)
+# Loading work.ddr_wdisplayfifo(fast)
+# Loading work.fifo_32w8r(fast)
+# Loading altera_mf_ver.dcfifo_mixed_widths(fast__1)
+# Loading altera_mf_ver.dcfifo_async(fast__1)
+# Loading altera_mf_ver.dcfifo_dffpipe(fast__6)
+# Loading altera_mf_ver.dcfifo_dffpipe(fast__7)
+# Loading altera_mf_ver.dcfifo_dffpipe(fast__8)
+# Loading altera_mf_ver.dcfifo_fefifo(fast__2)
+# Loading altera_mf_ver.dcfifo_fefifo(fast__3)
+# Loading altera_mf_ver.dcfifo_low_latency(fast__1)
+# Loading altera_mf_ver.dcfifo_dffpipe(fast__5)
+# Loading work.vga_display(fast)
+# Loading work.start_transfer_ctrl(fast)
+# Loading work.img_data_pkt(fast)
+# Loading work.fifo_eth_8w32r(fast)
+# Loading altera_mf_ver.dcfifo(fast__1)
+# Loading altera_mf_ver.dcfifo_mixed_widths(fast__2)
+# Loading altera_mf_ver.dcfifo_low_latency(fast__2)
+# Loading work.ethernet_top(fast)
+# Loading work.arp_top(fast)
+# Loading work.arp(fast)
+# Loading work.arp_rx(fast)
+# Loading work.arp_tx(fast)
+# Loading work.crc32_d8(fast)
+# Loading work.arp_ctrl(fast)
+# Loading work.udp(fast)
+# Loading work.udp_rx(fast)
+# Loading work.udp_tx(fast)
+# Loading work.gmii_tx_ctrl(fast)
+# Loading work.pll_u0(fast)
+# Loading altera_mf_ver.altpll(fast__1)
+# Loading altera_mf_ver.MF_cycloneiii_pll(fast__1)
+# Loading work.ethernet_top(fast__1)
+# Loading work.arp_top(fast__1)
+# Loading work.udp(fast__1)
+# Loading work.ddr2_full_mem_model(fast)
+# Loading work.ddr2_full_mem_model_ram_module(fast)
+# ** Warning: (vsim-3015) F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(363): [PCDPC] - Port size (23) does not match connection size (25) for port 'slave_waddr'. The port definition is at: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/slave_arbitrate_interface.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /top_testbench/top/slave_m0 File: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/slave_arbitrate_interface.v
+# ** Warning: (vsim-3015) F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(424): [PCDPC] - Port size (23) does not match connection size (25) for port 'slave_waddr'. The port definition is at: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/slave_arbitrate_interface.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /top_testbench/top/slave_m1 File: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/slave_arbitrate_interface.v
+# ** Warning: (vsim-3015) F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(486): [PCDPC] - Port size (23) does not match connection size (25) for port 'slave_waddr'. The port definition is at: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/slave_arbitrate_interface.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /top_testbench/top/slave_m2 File: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/slave_arbitrate_interface.v
+# ** Warning: (vsim-3015) F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(569): [PCDPC] - Port size (23) does not match connection size (25) for port 'slave0_Waddr'. The port definition is at: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/arbitrate_ctrl.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /top_testbench/top/arbitrate_ctrl_u0 File: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/arbitrate_ctrl.v
+# ** Warning: (vsim-3015) F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(569): [PCDPC] - Port size (23) does not match connection size (25) for port 'slave1_Waddr'. The port definition is at: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/arbitrate_ctrl.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /top_testbench/top/arbitrate_ctrl_u0 File: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/arbitrate_ctrl.v
+# ** Warning: (vsim-3015) F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/top/top_sdv.v(569): [PCDPC] - Port size (23) does not match connection size (25) for port 'slave2_Waddr'. The port definition is at: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/arbitrate_ctrl.v(23).
+#    Time: 0 ps  Iteration: 0  Instance: /top_testbench/top/arbitrate_ctrl_u0 File: F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/Slave_arbitrate/arbitrate_ctrl.v
+# ** Warning: (vsim-3015) F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v(498): [PCDPC] - Port size (8) does not match connection size (1) for port 'itf_cmd_id'. The port definition is at: F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_mm_st_converter.v(53).
+#    Time: 0 ps  Iteration: 0  Instance: /top_testbench/top/ddr_wr_ctrl/ddr_m0/ddr2_controller_phy_inst/ddr2_alt_mem_ddrx_controller_top_inst/mm_st_converter_inst File: F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_mm_st_converter.v
+# ** Warning: (vsim-3015) F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v(498): [PCDPC] - Port size (1) does not match connection size (2) for port 'itf_rd_data_error'. The port definition is at: F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_mm_st_converter.v(71).
+#    Time: 0 ps  Iteration: 0  Instance: /top_testbench/top/ddr_wr_ctrl/ddr_m0/ddr2_controller_phy_inst/ddr2_alt_mem_ddrx_controller_top_inst/mm_st_converter_inst File: F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_mm_st_converter.v
+# ** Warning: (vsim-3015) F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v(644): [PCDPC] - Port size (8) does not match connection size (1) for port 'itf_cmd_id'. The port definition is at: F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_controller_st_top.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /top_testbench/top/ddr_wr_ctrl/ddr_m0/ddr2_controller_phy_inst/ddr2_alt_mem_ddrx_controller_top_inst/controller_inst File: F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_controller_st_top.v
+# ** Warning: (vsim-3015) F:/old_Quartus_File/cmos_eth_v0.1/ddr2_alt_mem_ddrx_controller_top.v(644): [PCDPC] - Port size (1) does not match connection size (2) for port 'itf_rd_data_error'. The port definition is at: F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_controller_st_top.v(34).
+#    Time: 0 ps  Iteration: 0  Instance: /top_testbench/top/ddr_wr_ctrl/ddr_m0/ddr2_controller_phy_inst/ddr2_alt_mem_ddrx_controller_top_inst/controller_inst File: F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_controller_st_top.v
+# ** Warning: (vsim-3015) F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_addr_cmd_wrap.v(536): [PCDPC] - Port size (3) does not match connection size (8) for port 'bg_to_lmr'. The port definition is at: F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_addr_cmd.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /top_testbench/top/ddr_wr_ctrl/ddr_m0/ddr2_controller_phy_inst/ddr2_alt_mem_ddrx_controller_top_inst/controller_inst/controller_inst/addr_cmd_wrap_inst/gen_bg_afi_signal_decode[0]/alt_mem_ddrx_addr_cmd_inst File: F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_addr_cmd.v
+# ** Warning: (vsim-3015) F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_addr_cmd_wrap.v(536): [PCDPC] - Port size (3) does not match connection size (8) for port 'bg_to_lmr'. The port definition is at: F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_addr_cmd.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /top_testbench/top/ddr_wr_ctrl/ddr_m0/ddr2_controller_phy_inst/ddr2_alt_mem_ddrx_controller_top_inst/controller_inst/controller_inst/addr_cmd_wrap_inst/gen_bg_afi_signal_decode[1]/alt_mem_ddrx_addr_cmd_inst File: F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_addr_cmd.v
+# ** Warning: (vsim-3015) F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder.v(319): [PCDPC] - Port size (32) does not match connection size (33) for port 'q'. The port definition is at: F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder_32_syn.v(412).
+#    Time: 0 ps  Iteration: 0  Instance: /top_testbench/top/ddr_wr_ctrl/ddr_m0/ddr2_controller_phy_inst/ddr2_alt_mem_ddrx_controller_top_inst/controller_inst/controller_inst/ecc_encoder_decoder_wrapper_inst/decoder_inst_per_drate[0]/decoder_inst/genblk5/genblk1/decoder_inst File: F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder_32_syn.v
+# ** Warning: (vsim-3015) F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder.v(319): [PCDPC] - Port size (32) does not match connection size (33) for port 'q'. The port definition is at: F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder_32_syn.v(412).
+#    Time: 0 ps  Iteration: 0  Instance: /top_testbench/top/ddr_wr_ctrl/ddr_m0/ddr2_controller_phy_inst/ddr2_alt_mem_ddrx_controller_top_inst/controller_inst/controller_inst/ecc_encoder_decoder_wrapper_inst/decoder_inst_per_drate[1]/decoder_inst/genblk5/genblk1/decoder_inst File: F:/old_Quartus_File/cmos_eth_v0.1/alt_mem_ddrx_ecc_decoder_32_syn.v
+# ** Warning: (vsim-3015) F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v(476): [PCDPC] - Port size (2) does not match connection size (1) for port 'mem_dqs'. The port definition is at: F:/old_Quartus_File/cmos_eth_v0.1/testbench/ddr2_full_mem_model.v(128).
+#    Time: 0 ps  Iteration: 0  Instance: /top_testbench/mem File: F:/old_Quartus_File/cmos_eth_v0.1/testbench/ddr2_full_mem_model.v
+# ** Warning: (vsim-3015) F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v(476): [PCDPC] - Port size (2) does not match connection size (1) for port 'mem_dqs_n'. The port definition is at: F:/old_Quartus_File/cmos_eth_v0.1/testbench/ddr2_full_mem_model.v(129).
+#    Time: 0 ps  Iteration: 0  Instance: /top_testbench/mem File: F:/old_Quartus_File/cmos_eth_v0.1/testbench/ddr2_full_mem_model.v
+# 
+# add wave *
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "F:\old_Quartus_File\cmos4\simulation\input\pic1280.bmp" for reading.
+# 
+# No such file or directory. (errno = ENOENT)    : F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v(70)
+#    Time: 0 ps  Iteration: 0  Instance: /top_testbench
+# ** Error (suppressible): (vsim-PLI-3084) F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v(72): $fread : Argument 2 is not a valid file descriptor.
+#    Time: 0 ps  Iteration: 0  Instance: /top_testbench
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "F:\old_Quartus_File\cmos4\simulation\input\pic1280.bmp" for reading.
+# 
+# No such file or directory. (errno = ENOENT)    : F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v(84)
+#    Time: 0 ps  Iteration: 0  Instance: /top_testbench
+# ** Error (suppressible): (vsim-PLI-3084) F:/old_Quartus_File/cmos_eth_v0.1/rtl_code/tb/top_testbench.v(86): $fread : Argument 2 is not a valid file descriptor.
+#    Time: 0 ps  Iteration: 0  Instance: /top_testbench
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: top_testbench.top.ddr_wr_ctrl.ddr_m0.ddr2_controller_phy_inst.ddr2_phy_inst.ddr2_phy_alt_mem_phy_inst.rdp.full_rate_ram_gen.altsyncram_component
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: top_testbench.top.ddr_wr_ctrl.ddr_m0.ddr2_controller_phy_inst.ddr2_phy_inst.ddr2_phy_alt_mem_phy_inst.rdv_pipe.altsyncram_component
+# 
+# **********************************************************************
+# This testbench includes a generated Altera memory model:
+# 'ddr2_full_mem_model.v', to simulate accesses to the DDR2 SDRAM memory.
+#  
+# **********************************************************************
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: top_testbench.top.pll_sdvga.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: top_testbench.top.ddr_wr_ctrl.ddr_m0.ddr2_controller_phy_inst.ddr2_phy_inst.ddr2_phy_alt_mem_phy_inst.clk.genblk2.pll.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 200000  Instance: top_testbench.top.pll_sdvga.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 460000  Instance: top_testbench.top.ddr_wr_ctrl.ddr_m0.ddr2_controller_phy_inst.ddr2_phy_inst.ddr2_phy_alt_mem_phy_inst.clk.genblk2.pll.altpll_component.cycloneiii_pll.pll3
+# End time: 15:19:22 on Aug 21,2023, Elapsed time: 0:00:42
+# Errors: 2, Warnings: 88

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Oct 27 15:39:01 2023
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : cmos4
+Top-level Entity Name : top_sdv
+Family : Cyclone IV E
+Device : EP4CE15F23C8
+Timing Models : Final
+Total logic elements : 13,561 / 15,408 ( 88 % )
+    Total combinational functions : 11,648 / 15,408 ( 76 % )
+    Dedicated logic registers : 7,742 / 15,408 ( 50 % )
+Total registers : 7850
+Total pins : 188 / 344 ( 55 % )
+Total virtual pins : 0
+Total memory bits : 336,160 / 516,096 ( 65 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 3 / 4 ( 75 % )
